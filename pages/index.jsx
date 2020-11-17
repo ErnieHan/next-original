@@ -1,12 +1,9 @@
-import Head from 'next/head'
+const { default: Meta } = require('../src/components/Meta')
 
 function Home() {
   return (
     <div>
-      <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+      <Meta />
       this is home page
     </div>
   )

@@ -4,9 +4,9 @@ import { getExample } from '../src/store/actions/home'
 import { END } from 'redux-saga'
 import { useSelector } from 'react-redux'
 
-function Ernie(props) {
+function Saga(props) {
   const result = useSelector(state => state.home.result)
-  return <div>this is page ernie</div>
+  return <div>This is page saga testing</div>
 }
 
 export const getServerSideProps = wrapper.getServerSideProps(async context => {
@@ -21,4 +21,4 @@ export const getServerSideProps = wrapper.getServerSideProps(async context => {
   }
 })
 
-export default Ernie
+export default Saga
