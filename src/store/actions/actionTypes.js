@@ -1,0 +1,5 @@
+export const actionTypes = {
+  HYDRATE: 'HYDRATE',
+  GET_EXAMPLE: 'GET_EXAMPLE',
+  UPDATE_EXAMPLE: 'UPDATE_EXAMPLE'
+}

@@ -1,0 +1,16 @@
+{
+  "example": [
+    {
+      "districtName": "新界區",
+      "subDistrictName": "元朗區",
+      "storeId": "109",
+      "displayName": "109 元行",
+      "address": "香港新界區元朗青山公路87號地下",
+      "telephoneNumber": "+852 2476 2556,+852 2478 3351",
+      "givenName": "周生生元朗青山公路87號店",
+      "operatingHour": "09:30-20:00",
+      "dsLatitude": "22.304642",
+      "dsLongitude": "114.171357"
+    }
+  ]
+}
