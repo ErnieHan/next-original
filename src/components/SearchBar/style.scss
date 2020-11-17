@@ -1,0 +1,60 @@
+.searchbar-main {
+  padding: 8px 16px;
+  background-color: #dfb585;
+
+  .searchbar-outline {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background: transparent;
+    border: 1px solid #fff;
+    border-radius: 6px;
+  }
+
+  .input-outline {
+    position: relative;
+    width: 77%;
+
+    .searchbar {
+      padding: 6px 24px;
+      width: 100%;
+      font-family: inherit;
+      color: #fff;
+      background-color: transparent;
+      border: 0;
+      outline: 0;
+      appearance: none;
+    }
+
+    .content {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 100%;
+      background: #fff;
+      border-radius: 0 0 6px 6px;
+      z-index: 2;
+      box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+
+      .option {
+        padding: 10px 24px;
+        cursor: pointer;
+        font-size: 12px;
+      }
+    }
+  }
+
+  .category-outline {
+    width: 23%;
+
+    .name {
+      padding: 6px 12px;
+      color: #fff;
+      border-left: 1px solid #fff;
+      cursor: pointer;
+    }
+  }
+}
+
+

@@ -13,6 +13,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   letter-spacing: 1.15px;
+  font-weight: 400;
 }
 
 code {
@@ -129,10 +130,10 @@ q {
   quotes: none;
 }
 
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
+blockquote::before,
+blockquote::after,
+q::before,
+q::after {
   content: '';
   content: none;
 }
@@ -153,9 +154,9 @@ img {
 }
 
 button {
+  font-family: inherit;
+  border: 0;
   border-radius: 0;
   outline: 0;
   cursor: pointer;
-  font-family: inherit;
-  border: 0;
 }

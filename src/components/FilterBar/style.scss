@@ -1,0 +1,33 @@
+.filter-bar {
+  ul {
+    display: flex;
+    background-color: #f5e8d8;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.06);
+
+    li {
+      position: relative;
+      padding: 15px;
+      font-size: 12px;
+      text-align: center;
+      flex-grow: 1;
+      cursor: pointer;
+
+      &:first-child {
+        &::before {
+          content: none;
+        }
+      }
+
+      &::before {
+        position: absolute;
+        top: 10px;
+        left: 0;
+        width: 1px;
+        height: 60%;
+        background: #000;
+        opacity: 0.1;
+        content: '';
+      }
+    }
+  }
+}
