@@ -1,31 +1,81 @@
 import React, { useRef, useState } from 'react'
+import { HOST_URL } from '../../constants'
+let search_timer
 
 function SearchBar() {
   const element = useRef(null)
   const [searchText, setSearchText] = useState('')
+  const [isFocus, setIsFocus] = useState(false)
+  const [keywords, setKeywords] = useState(null)
+  const [showKeywords, setShowKeywords] = useState(false)
 
   function handleSearchText(event) {
-    setSearchText(event.target.value)
+    const { value } = event.target
+    setSearchText(value)
+    clearTimeout(search_timer)
+    if (value.trim() !== '') {
+      search_timer = setTimeout(searching, 1000)
+    } else {
+      setShowKeywords(false)
+    }
+  }
+
+  function handleFocus() {
+    setIsFocus(true)
+  }
+
+  function handleBlur() {
+    setIsFocus(false)
+  }
+
+  async function searching() {
+    try {
+      const res = await fetch(`${HOST_URL}/example`)
+      if (res.ok) {
+        const data = await res.json()
+        setKeywords(data)
+        setShowKeywords(true)
+      }
+    } catch (error) {
+      console.error(error)
+    }
+  }
+
+  function handleKeywords(data) {
+    setSearchText(data.givenName)
+    setIsFocus(true)
+    setShowKeywords(false)
+    element.current.focus()
   }
 
   return (
     <div className="searchbar-main">
-      <div className="searchbar-outline">
+      <div
+        className={`searchbar-outline ${isFocus ? 'focus' : ''} ${
+          showKeywords ? 'has-keywords' : ''
+        }`}
+      >
         <div className="input-outline">
           <input
             type="search"
             ref={element}
             className="searchbar"
             placeholder="搜尋商品"
-            onChange={handleSearchText}
             value={searchText}
+            onChange={handleSearchText}
+            onFocus={handleFocus}
+            onBlur={handleBlur}
           />
-          <div className="content">
-            <div className="option">option1</div>
-            <div className="option">option2</div>
-            <div className="option">option3</div>
-            <div className="option">option4</div>
-          </div>
+          {showKeywords && (
+            <div className="content">
+              {keywords &&
+                keywords.map((data, index) => (
+                  <div className="option" key={index} onClick={handleKeywords.bind(this, data)}>
+                    {data.givenName}
+                  </div>
+                ))}
+            </div>
+          )}
         </div>
         <div className="category-outline">
           <div className="name">珠寶</div>

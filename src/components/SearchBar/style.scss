@@ -10,6 +10,27 @@
     background: transparent;
     border: 1px solid #fff;
     border-radius: 6px;
+
+    &.focus {
+      background: #fff;
+
+      .searchbar {
+        color: #212121;
+
+        &::placeholder {
+          color: #212121;
+        }
+      }
+
+      .name {
+        color: #212121;
+        border-left: 1px solid #616161;
+      }
+    }
+
+    &.has-keywords {
+      border-radius: 6px 6px 6px 0;
+    }
   }
 
   .input-outline {
@@ -25,6 +46,10 @@
       border: 0;
       outline: 0;
       appearance: none;
+
+      &::placeholder {
+        color: #fff;
+      }
     }
 
     .content {
@@ -41,6 +66,10 @@
         padding: 10px 24px;
         cursor: pointer;
         font-size: 12px;
+
+        &:hover {
+          background-color: #f9f9f9;
+        }
       }
     }
   }
@@ -56,5 +85,3 @@
     }
   }
 }
-
-

@@ -6,7 +6,12 @@ import { useSelector } from 'react-redux'
 
 function Saga(props) {
   const result = useSelector(state => state.home.result)
-  return <div>This is page saga testing</div>
+  return (
+    <div>
+      <h1>This is page saga testing</h1>
+      {result && result.map((data, index) => <div key={index}>{data.givenName}</div>)}
+    </div>
+  )
 }
 
 export const getServerSideProps = wrapper.getServerSideProps(async context => {

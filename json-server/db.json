@@ -1,16 +1,52 @@
 {
   "example": [
     {
+      "districtName": "香港區",
+      "subDistrictName": "中西區",
+      "storeId": "183",
+      "displayName": "183 EMP豪行(金鐘太古廣場)",
+      "address": "香港金鐘太古廣場L1層139號",
+      "telephoneNumber": "+852 2154 0061",
+      "givenName": "EMPHASIS金鐘太古廣場店",
+      "operatingHour": "11:00-20:00",
+      "dsLatitude": "22.277368",
+      "dsLongitude": "114.165130"
+    },
+    {
       "districtName": "新界區",
-      "subDistrictName": "元朗區",
-      "storeId": "109",
-      "displayName": "109 元行",
-      "address": "香港新界區元朗青山公路87號地下",
-      "telephoneNumber": "+852 2476 2556,+852 2478 3351",
-      "givenName": "周生生元朗青山公路87號店",
-      "operatingHour": "09:30-20:00",
-      "dsLatitude": "22.304642",
-      "dsLongitude": "114.171357"
+      "subDistrictName": "沙田區",
+      "storeId": "249",
+      "displayName": "249 EMP新行(沙田新城市廣場)",
+      "address": "香港新界區新城市廣場3期L3層A339號",
+      "telephoneNumber": "+852 2719 2302",
+      "givenName": "EMPHASIS沙田新城市廣場店",
+      "operatingHour": "11:00-20:00",
+      "dsLatitude": "22.379801",
+      "dsLongitude": "114.187662"
+    },
+    {
+      "districtName": "九龍區",
+      "subDistrictName": "深水埗區",
+      "storeId": "D97",
+      "displayName": "D97 EMP達行(九龍塘又一城)",
+      "address": "香港九龍區九龍塘又一城LG2層65號",
+      "telephoneNumber": "+852 2384 2226",
+      "givenName": "EMPHASIS又一城店",
+      "operatingHour": "11:00-20:30",
+      "dsLatitude": "22.337334",
+      "dsLongitude": "114.174481"
+    },
+    {
+      "districtName": "香港區",
+      "subDistrictName": "中西區",
+      "storeId": "E51",
+      "displayName": "E51 EMP國行(中環國際金融中心)",
+      "address": "香港香港國際金融中心商場L1層1018A號",
+      "telephoneNumber": "+852 2264 8600",
+      "givenName": "EMPHASIS中環國際金融中心店",
+      "operatingHour": "10:30-20:00",
+      "dsLatitude": "22.284948",
+      "dsLongitude": "114.157010"
     }
   ]
 }
