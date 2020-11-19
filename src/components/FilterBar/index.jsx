@@ -13,6 +13,7 @@ function FilterBar() {
           <div className="result">
             <p>Gold Type</p>
             <p>18KW 玫瑰白金</p>
+            <p>delete</p>
           </div>
           <div className="result">
             <p>Currency</p>

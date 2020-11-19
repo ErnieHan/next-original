@@ -9,6 +9,7 @@
     "server": "node ./json-server/server.js"
   },
   "dependencies": {
+    "cookies": "^0.8.0",
     "next": "10.0.1",
     "next-redux-wrapper": "^6.0.2",
     "react": "17.0.1",

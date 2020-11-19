@@ -4,6 +4,7 @@ import '../src/styles/globals.css'
 import '../src/components/Header/style.scss'
 import '../src/components/FilterBar/style.scss'
 import '../src/components/SearchBar/style.scss'
+import '../src/components/Speedline/style.scss'
 
 function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />
