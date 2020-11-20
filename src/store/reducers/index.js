@@ -1,10 +1,10 @@
 import { combineReducers } from 'redux'
-import home from './home'
-import loading from './loading'
+import update from './update'
+import set from './set'
 
 const reducers = combineReducers({
-  home,
-  loading
+  update,
+  set
 })
 
 export default reducers

@@ -1,4 +1,5 @@
 import React from 'react'
+import { useDispatch, useSelector } from 'react-redux'
 
 function FilterBar() {
   return (
@@ -11,13 +12,8 @@ function FilterBar() {
       <div className="filter-results-wrapper">
         <div className="content">
           <div className="result">
-            <p>Gold Type</p>
-            <p>18KW 玫瑰白金</p>
-            <p>delete</p>
-          </div>
-          <div className="result">
-            <p>Currency</p>
-            <p>$HKD</p>
+            <p className="title">金類</p>
+            <p>18KW</p>
           </div>
         </div>
       </div>

@@ -4,6 +4,7 @@ import Header from '../src/components/Header'
 import MetaHead from '../src/components/MetaHead'
 import SearchBar from '../src/components/SearchBar'
 import Cookies from 'cookies'
+import Typing from '../src/components/Typing'
 
 function Home() {
   return (
@@ -12,7 +13,10 @@ function Home() {
       <Header />
       <SearchBar />
       <FilterBar />
-      <main>This is home page</main>
+      <main>
+        This is home page
+        <Typing />
+      </main>
     </React.Fragment>
   )
 }

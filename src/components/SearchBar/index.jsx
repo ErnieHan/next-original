@@ -48,6 +48,10 @@ function SearchBar() {
     element.current.focus()
   }
 
+  function handleSubmit(event) {
+    event.preventDefault()
+  }
+
   return (
     <div className="searchbar-main">
       <div
@@ -56,26 +60,28 @@ function SearchBar() {
         }`}
       >
         <div className="input-outline">
-          <input
-            type="search"
-            ref={element}
-            className="searchbar"
-            placeholder="搜尋商品"
-            value={searchText}
-            onChange={handleSearchText}
-            onFocus={handleFocus}
-            onBlur={handleBlur}
-          />
-          {showKeywords && (
-            <div className="content">
-              {keywords &&
-                keywords.map((data, index) => (
-                  <div className="option" key={index} onClick={handleKeywords.bind(this, data)}>
-                    {data.givenName}
-                  </div>
-                ))}
-            </div>
-          )}
+          <form onSubmit={handleSubmit}>
+            <input
+              type="search"
+              ref={element}
+              className="searchbar"
+              placeholder="搜尋商品"
+              value={searchText}
+              onChange={handleSearchText}
+              onFocus={handleFocus}
+              onBlur={handleBlur}
+            />
+            {showKeywords && (
+              <div className="content">
+                {keywords &&
+                  keywords.map((data, index) => (
+                    <div className="option" key={index} onClick={handleKeywords.bind(this, data)}>
+                      {data.givenName}
+                    </div>
+                  ))}
+              </div>
+            )}
+          </form>
         </div>
         <div className="category-outline">
           <div className="name">珠寶</div>

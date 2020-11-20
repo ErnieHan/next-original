@@ -2,25 +2,27 @@ import { HYDRATE } from 'next-redux-wrapper'
 import { actionTypes } from '../actions/actionTypes'
 
 const initState = {
-  result: null
+  isLoading: false
 }
 
-const home = (state = initState, action) => {
+const set = (state = initState, action) => {
   switch (action.type) {
     case HYDRATE: {
       return {
         ...state,
-        ...action.payload.home
+        ...action.payload.set
       }
     }
-    case actionTypes.UPDATE_EXAMPLE:
+
+    case actionTypes.SET_LOADING:
       return {
         ...state,
-        result: action.data
+        isLoading: action.bool
       }
+
     default:
       return state
   }
 }
 
-export default home
+export default set
