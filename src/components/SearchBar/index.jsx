@@ -13,10 +13,9 @@ function SearchBar() {
     const { value } = event.target
     setSearchText(value)
     clearTimeout(search_timer)
+    setShowKeywords(false)
     if (value.trim() !== '') {
       search_timer = setTimeout(searching, 1000)
-    } else {
-      setShowKeywords(false)
     }
   }
 
@@ -50,6 +49,7 @@ function SearchBar() {
 
   function handleSubmit(event) {
     event.preventDefault()
+    console.log(searchText)
   }
 
   return (

@@ -3,11 +3,15 @@ import React, { useEffect, useRef } from 'react'
 function Typing() {
   const element = useRef(null)
   useEffect(() => {
-    console.log('use-effect')
+    const words = ['Hi! My name is Ernie.', 'This is testing', '2020新年快樂']
+    initTyping(words)
+  }, [])
+
+  function initTyping(words) {
     const text = element.current
 
     // make a words array
-    const words = ['Hi! My name is Ernie.', 'this is testing', '2020新年快樂']
+    // const words = ['Hi! My name is Ernie.', 'this is testing', '2020新年快樂']
 
     // start typing effect
     setTyper(text, words)
@@ -65,7 +69,7 @@ function Typing() {
         }
       }
     }
-  }, [])
+  }
 
   return <div ref={element}></div>
 }

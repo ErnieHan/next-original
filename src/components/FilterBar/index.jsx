@@ -1,12 +1,29 @@
 import React from 'react'
 import { useDispatch, useSelector } from 'react-redux'
+import { setFilterMenu, setFilterSort } from '../../store/actions/set'
+import FilterMenu from '../FilterMenu'
+import FilterSort from '../FilterSort'
 
 function FilterBar() {
+  const dispatch = useDispatch()
+
   return (
     <nav className="filter-bar">
       <ul>
-        <li>產品選項</li>
-        <li>款號大至小</li>
+        <li
+          onClick={() => {
+            dispatch(setFilterMenu(true))
+          }}
+        >
+          產品選項
+        </li>
+        <li
+          onClick={() => {
+            dispatch(setFilterSort(true))
+          }}
+        >
+          款號大至小
+        </li>
         <li>全部貨類</li>
       </ul>
       <div className="filter-results-wrapper">
@@ -17,6 +34,8 @@ function FilterBar() {
           </div>
         </div>
       </div>
+      <FilterMenu />
+      <FilterSort />
     </nav>
   )
 }

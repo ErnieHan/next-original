@@ -150,12 +150,18 @@ a {
   color: inherit;
 }
 
+input {
+  letter-spacing: 1.15px;
+  font-family: inherit;
+}
+
 img {
   width: 100%;
   max-width: 100%;
 }
 
 button {
+  letter-spacing: 1.15px;
   font-family: inherit;
   border: 0;
   border-radius: 0;

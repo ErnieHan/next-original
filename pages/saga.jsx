@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { wrapper } from '../src/store'
 import { END } from 'redux-saga'
 import { useSelector, useDispatch } from 'react-redux'
@@ -29,6 +29,8 @@ function Saga(props) {
 
 export const getServerSideProps = wrapper.getServerSideProps(async context => {
   const { store, req, res } = context
+  const cookie = req.headers.cookie
+  console.log(cookie)
   if (!store.getState().update.result) {
     store.dispatch(getExample())
     store.dispatch(END)

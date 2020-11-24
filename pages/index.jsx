@@ -4,18 +4,18 @@ import Header from '../src/components/Header'
 import MetaHead from '../src/components/MetaHead'
 import SearchBar from '../src/components/SearchBar'
 import Cookies from 'cookies'
-import Typing from '../src/components/Typing'
+import Pagination from '../src/components/Pagination'
 
 function Home() {
   return (
     <React.Fragment>
-      <MetaHead />
+      <MetaHead title="PCMS 3.0  |  ChowSangSang Group" />
       <Header />
       <SearchBar />
       <FilterBar />
       <main>
         This is home page
-        <Typing />
+        <Pagination />
       </main>
     </React.Fragment>
   )

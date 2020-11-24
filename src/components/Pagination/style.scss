@@ -1,0 +1,32 @@
+.pagination {
+  position: relative;
+  margin: 35px;
+  width: 85px;
+
+  .selector {
+    padding: 4px 10px;
+    border: 1px solid #bdbdbd;
+    border-radius: 4px;
+  }
+
+  .wrapper {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    border-radius: 4px;
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.1);
+    transition: all 300ms;
+
+    .option {
+      padding: 10px 12px;
+      cursor: pointer;
+
+      &:hover {
+        background: #e6f7ff;
+      }
+    }
+  }
+}

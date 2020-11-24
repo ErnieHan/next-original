@@ -6,9 +6,16 @@ import { HOST_URL } from '../constants'
 
 function* getExampleSaga() {
   try {
-    const response = yield fetch(`${HOST_URL}/example`)
-    const result = yield response.json()
-    yield put(updateExample(result))
+    const response = yield fetch(`${HOST_URL}/example`, {
+      method: 'GET',
+      credentials: 'include'
+    })
+    if (response.ok) {
+      const result = yield response.json()
+      yield put(updateExample(result))
+    } else {
+      throw new Error('GET_EXAMPLE_FAILED')
+    }
   } catch (error) {
     console.error(error)
   }
@@ -20,7 +27,8 @@ function* postExampleSaga(context) {
     yield put(setLoading(true))
     const response = yield fetch(`${HOST_URL}/example`, {
       method: 'POST',
-      body: JSON.stringify({ name: data })
+      body: JSON.stringify({ name: data }),
+      credentials: 'include'
     })
     if (response.ok) {
       const result = yield response.json()
