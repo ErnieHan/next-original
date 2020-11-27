@@ -4,7 +4,8 @@ import { actionTypes } from '../actions/actionTypes'
 const initState = {
   isLoading: false,
   showFilterMenu: false,
-  showFilterSort: false
+  showFilterSort: false,
+  searchText: ''
 }
 
 const set = (state = initState, action) => {
@@ -32,6 +33,12 @@ const set = (state = initState, action) => {
       return {
         ...state,
         showFilterSort: action.bool
+      }
+
+    case actionTypes.SET_SEARCH_TEXT:
+      return {
+        ...state,
+        searchText: action.text
       }
 
     default:

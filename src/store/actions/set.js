@@ -11,3 +11,7 @@ export const setFilterMenu = bool => {
 export const setFilterSort = bool => {
   return { type: actionTypes.SET_FILTER_SORT, bool }
 }
+
+export const setSearchText = text => {
+  return { type: actionTypes.SET_SEARCH_TEXT, text }
+}

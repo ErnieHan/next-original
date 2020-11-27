@@ -1,0 +1,11 @@
+.home-main {
+  display: flex;
+}
+
+.home-main > .left {
+  width: 250px;
+}
+
+.home-main > .right {
+  flex-grow: 1;
+}

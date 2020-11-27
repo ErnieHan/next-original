@@ -1,5 +1,10 @@
+const withImages = require('next-images')
 const isDev = process.env.NODE_ENV === 'development'
 
-module.exports = {
-  assetPrefix: isDev ? '' : ''
-}
+module.exports = withImages({
+  assetPrefix: isDev ? '' : '',
+  dynamicAssetPrefix: true,
+  webbpack(config, options) {
+    return config
+  }
+})

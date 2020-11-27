@@ -1,17 +1,21 @@
 import React, { useRef, useState } from 'react'
 import { HOST_URL } from '../../constants'
+import { useSelector, useDispatch } from 'react-redux'
+import { setSearchText } from '../../store/actions/set'
+
 let search_timer
 
-function SearchBar() {
+function SearchBar({ mode }) {
   const element = useRef(null)
-  const [searchText, setSearchText] = useState('')
   const [isFocus, setIsFocus] = useState(false)
   const [keywords, setKeywords] = useState(null)
   const [showKeywords, setShowKeywords] = useState(false)
+  const searchText = useSelector(state => state.set.searchText)
+  const dispatch = useDispatch()
 
   function handleSearchText(event) {
     const { value } = event.target
-    setSearchText(value)
+    dispatch(setSearchText(value))
     clearTimeout(search_timer)
     setShowKeywords(false)
     if (value.trim() !== '') {
@@ -41,7 +45,7 @@ function SearchBar() {
   }
 
   function handleKeywords(data) {
-    setSearchText(data.givenName)
+    dispatch(setSearchText(data.givenName))
     setIsFocus(true)
     setShowKeywords(false)
     element.current.focus()
@@ -53,7 +57,7 @@ function SearchBar() {
   }
 
   return (
-    <div className="searchbar-main">
+    <div className={`searchbar-main ${mode}`}>
       <div
         className={`searchbar-outline ${isFocus ? 'focus' : ''} ${
           showKeywords ? 'has-keywords' : ''
@@ -89,6 +93,10 @@ function SearchBar() {
       </div>
     </div>
   )
+}
+
+SearchBar.defaultProps = {
+  mode: 'desktop'
 }
 
 export default SearchBar

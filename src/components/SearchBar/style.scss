@@ -1,6 +1,13 @@
 .searchbar-main {
-  padding: 8px 16px;
   background-color: #dfb585;
+
+  &.desktop {
+    min-width: 450px;
+  }
+
+  &.mobile {
+    display: none;
+  }
 
   .searchbar-outline {
     position: relative;
@@ -70,6 +77,7 @@
         padding: 10px 24px;
         cursor: pointer;
         font-size: 12px;
+        color: #212121;
 
         &:hover {
           background-color: #f9f9f9;
@@ -96,6 +104,20 @@
         background-color: #fff;
         content: '';
       }
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .searchbar-main {
+    padding: 8px 16px;
+
+    &.desktop {
+      display: none;
+    }
+
+    &.mobile {
+      display: block;
     }
   }
 }

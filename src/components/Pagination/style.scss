@@ -7,6 +7,8 @@
     padding: 4px 10px;
     border: 1px solid #bdbdbd;
     border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
   }
 
   .wrapper {
@@ -27,6 +29,15 @@
       &:hover {
         background: #e6f7ff;
       }
+    }
+  }
+
+  &:focus {
+    outline: 0;
+
+    .selector {
+      border: 1px solid #40a9ff;
+      box-shadow: 0 0 0 2px rgba(24, 144, 255, 0.2);
     }
   }
 }

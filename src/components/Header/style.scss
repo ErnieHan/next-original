@@ -17,5 +17,15 @@ header {
         margin-left: 10px;
       }
     }
+
+    .left {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+
+      .home-btn {
+        margin-right: 10px;
+      }
+    }
   }
 }

@@ -3,19 +3,21 @@ import FilterBar from '../src/components/FilterBar'
 import Header from '../src/components/Header'
 import MetaHead from '../src/components/MetaHead'
 import SearchBar from '../src/components/SearchBar'
+import FilterMenuDesktop from '../src/components/FilterMenu/desktop/index'
 import Cookies from 'cookies'
-import Pagination from '../src/components/Pagination'
 
 function Home() {
   return (
     <React.Fragment>
       <MetaHead title="PCMS 3.0  |  ChowSangSang Group" />
       <Header />
-      <SearchBar />
+      <SearchBar mode="mobile" />
       <FilterBar />
-      <main>
-        This is home page
-        <Pagination />
+      <main className="home-main">
+        <section className="left">
+          <FilterMenuDesktop />
+        </section>
+        <section className="right">this is right</section>
       </main>
     </React.Fragment>
   )
