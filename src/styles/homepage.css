@@ -4,8 +4,28 @@
 
 .home-main > .left {
   width: 250px;
+  height: calc(100vh - 112px);
+  flex-shrink: 0;
 }
 
 .home-main > .right {
   flex-grow: 1;
+  padding: 0 15px;
+}
+
+@media (max-width: 991px) {
+  .home-main > .left {
+    width: 220px;
+  }
+}
+
+@media (max-width: 767px) {
+  .home-main > .left {
+    display: none;
+    width: 0;
+  }
+
+  .home-main > .right {
+    width: 100%;
+  }
 }

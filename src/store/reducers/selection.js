@@ -2,29 +2,31 @@ import { HYDRATE } from 'next-redux-wrapper'
 import { actionTypes } from '../actions/actionTypes'
 
 const initState = {
-  result: null,
-  menu: null
+  catalogItemType: 'jewelry',
+  textSearch: '',
+  catalogItemNumber: '',
+  refinements: []
 }
 
-const update = (state = initState, action) => {
+const selection = (state = initState, action) => {
   switch (action.type) {
     case HYDRATE: {
       return {
         ...state,
-        ...action.payload.update
+        ...action.payload.selection
       }
     }
 
-    case actionTypes.UPDATE_EXAMPLE:
+    case actionTypes.SET_SELECTION:
       return {
         ...state,
-        result: action.data
+        refinements: action.data
       }
 
-    case actionTypes.UPDATE_REFINEMENTS:
+    case actionTypes.SET_INIT_SELECTIONS:
       return {
         ...state,
-        menu: action.data
+        ...action.data
       }
 
     default:
@@ -32,4 +34,4 @@ const update = (state = initState, action) => {
   }
 }
 
-export default update
+export default selection

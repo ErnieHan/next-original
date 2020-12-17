@@ -1,10 +1,11 @@
 import React from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { setFilterMenu, setFilterSort } from '../../store/actions/set'
-import FilterMenu from '../FilterMenu'
+import FilterMenuMobile from '../FilterMenu/mobile'
 import FilterSort from '../FilterSort'
 
 function FilterBar() {
+  const filter = useSelector(state => state.filter)
   const dispatch = useDispatch()
 
   return (
@@ -28,13 +29,15 @@ function FilterBar() {
       </ul>
       <div className="filter-results-wrapper">
         <div className="content">
-          <div className="result">
-            <p className="title">金類</p>
-            <p>18KW</p>
-          </div>
+          {filter.GT.map((data, index) => (
+            <div key={index} className="result">
+              <p className="title">分店</p>
+              <p>{data.description}</p>
+            </div>
+          ))}
         </div>
       </div>
-      <FilterMenu />
+      <FilterMenuMobile />
       <FilterSort />
     </nav>
   )

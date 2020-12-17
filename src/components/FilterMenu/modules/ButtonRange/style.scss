@@ -1,0 +1,57 @@
+.button-range-content {
+  .max-min-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin: 12px -6px;
+
+    .range-line {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0 6px;
+      width: 10%;
+      text-align: center;
+    }
+
+    .maxmin-outline {
+      padding: 0 6px;
+      width: 45%;
+
+      input {
+        padding: 10px;
+        width: 100%;
+        text-align: center;
+        border: 1px solid #bdbdbd;
+        border-radius: 6px;
+        outline: 0;
+      }
+    }
+  }
+
+  .buttons-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -6px;
+
+    .range-btn-outline {
+      padding: 0 6px;
+      width: 33.33%;
+    }
+
+    .range-btn {
+      margin-bottom: 6px;
+      padding: 6px;
+      width: 100%;
+      font-weight: 300;
+      background: #fff;
+      border: 1px solid #bdbdbd;
+      border-radius: 6px;
+
+      &.active {
+        color: #c99152;
+        background: #f5e8d8;
+        border: 1px solid #c99152;
+      }
+    }
+  }
+}

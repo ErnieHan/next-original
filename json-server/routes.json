@@ -1,1 +1,3 @@
-{}
+{
+  "/eshop-tw/api/shopping/v1/catalogItemSearches/search?*": "/search"
+}

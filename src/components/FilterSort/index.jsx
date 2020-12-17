@@ -8,7 +8,6 @@ function FilterSort() {
 
   return (
     <div className={`filter-sort ${showFilterSort ? 'active' : ''}`}>
-      {console.log('showFilterSort', showFilterSort)}
       <div className="filter-sort-backdrop">
         <div className="content">
           <div className="head">

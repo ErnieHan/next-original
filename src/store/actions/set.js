@@ -15,3 +15,15 @@ export const setFilterSort = bool => {
 export const setSearchText = text => {
   return { type: actionTypes.SET_SEARCH_TEXT, text }
 }
+
+export const setSelection = data => {
+  return { type: actionTypes.SET_SELECTION, data }
+}
+
+export const setInitSelection = data => {
+  return { type: actionTypes.SET_INIT_SELECTIONS, data }
+}
+
+export const setFilter = data => {
+  return { type: actionTypes.SET_FILTER, data }
+}

@@ -2,7 +2,7 @@
   ul {
     display: flex;
     background-color: #f5e8d8;
-    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.06);
+    // box-shadow: 0 5px 5px rgba(0, 0, 0, 0.06);
 
     li {
       position: relative;
@@ -37,7 +37,8 @@
   }
 
   .filter-results-wrapper {
-    padding: 16px;
+    display: none;
+    padding: 10px;
 
     .content {
       display: flex;
@@ -51,12 +52,20 @@
       background: #fafafa;
       border: 1px solid #d9d9d9;
       border-radius: 6px;
-      flex-grow: 0;
+      flex-shrink: 0;
       cursor: pointer;
 
       .title {
         color: tan;
       }
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .filter-bar {
+    .filter-results-wrapper {
+      display: block;
     }
   }
 }
