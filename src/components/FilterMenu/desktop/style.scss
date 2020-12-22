@@ -31,7 +31,7 @@
         }
 
         .option-content {
-          max-height: 800px;
+          max-height: 2000px;
         }
       }
     }
@@ -74,6 +74,10 @@
           border-bottom: 0;
         }
       }
+    }
+
+    .module-wrapper {
+      padding: 15px 0;
     }
   }
 

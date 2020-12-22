@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "cookies": "^0.8.0",
+    "jquery": "^3.5.1",
     "next": "10.0.1",
     "next-images": "^1.6.2",
     "next-redux-wrapper": "^6.0.2",

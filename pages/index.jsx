@@ -15,6 +15,7 @@ import SearchBar from '../src/components/SearchBar'
 import FilterMenuDesktop from '../src/components/FilterMenu/desktop'
 import Right from '../src/containers/home/Right'
 import { parse } from 'qs'
+import queryString from 'query-string'
 
 function Home() {
   const dispatch = useDispatch()
@@ -24,6 +25,7 @@ function Home() {
     if (search !== '') {
       const params = parse(search)
       if (params.refinements) {
+        console.log(params)
         dispatch(setSelection(params.refinements))
       }
     }
@@ -40,9 +42,7 @@ function Home() {
         <section className="left">
           <FilterMenuDesktop />
         </section>
-        <section className="right">
-          <Right />
-        </section>
+        <Right />
       </main>
     </React.Fragment>
   )

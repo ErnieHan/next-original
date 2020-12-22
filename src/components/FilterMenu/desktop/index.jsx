@@ -1,4 +1,4 @@
-import React, { useState, useRef } from 'react'
+import React, { useState, useRef, useEffect } from 'react'
 import { useSelector, useDispatch } from 'react-redux'
 import { setFilter } from '../../../store/actions/set'
 import { postRefinements } from '../../../store/actions/post'
@@ -12,7 +12,7 @@ function FilterMenuDesktop() {
   const selection = useSelector(state => state.selection)
   const dispatch = useDispatch()
 
-  function handleToggle(data) {
+  function handleToggle(data, index) {
     if (activeTab !== data.refinementType) {
       setActiveTab(data.refinementType)
     } else {
@@ -25,6 +25,8 @@ function FilterMenuDesktop() {
     dispatch(postRefinements(selection))
   }
 
+  console.log('update')
+
   return (
     <div className="filter-menu-desktop">
       <div className="body" ref={element}>
@@ -34,12 +36,14 @@ function FilterMenuDesktop() {
               key={index}
               className={`option-wrapper ${activeTab === data.refinementType ? 'active' : ''}`}
             >
-              <div className="option-head" onClick={handleToggle.bind(this, data)}>
+              <div className="option-head" onClick={() => handleToggle(data, index)}>
                 <div className="title">{data.refinementName}</div>
                 <div className="selections"></div>
               </div>
               <div className="option-content">
-                <Modules data={data} />
+                <div className="module-wrapper">
+                  <Modules data={data} />
+                </div>
               </div>
             </div>
           ))}

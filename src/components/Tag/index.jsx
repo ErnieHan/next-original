@@ -1,9 +1,10 @@
 import React from 'react'
 import { useSelector } from 'react-redux'
 
-function Tag({ title, name, onClick }) {
+function Tag({ title, name, minRange, maxRange, onClick }) {
   const menu = useSelector(state => state.update.menu)
-  const obj = menu.refinements.find(data => data.refinementType === title)
+  const refinements = menu ? menu.refinements : []
+  const obj = refinements.find(data => data.refinementType === title)
   const options = obj ? obj.options : []
   const obj2 = options.find(data => data.code === name)
   const refinementName = obj ? obj.refinementName : title
@@ -13,7 +14,13 @@ function Tag({ title, name, onClick }) {
     <div className="tag-main">
       <div className="desc">
         <p className="title">{refinementName}</p>
-        <p className="name">{optionName}</p>
+        {minRange || maxRange ? (
+          <p className="name">
+            {minRange} - {maxRange}
+          </p>
+        ) : (
+          <p className="name">{optionName}</p>
+        )}
       </div>
       <div className="close" onClick={onClick}></div>
     </div>
