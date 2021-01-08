@@ -38,18 +38,7 @@ function FilterMenu() {
           </div>
           <div className="filters-wrapper">
             <div>已選項目 ({filter.GT.length})</div>
-            <div className="content">
-              {filter.GT.map((data, index) => (
-                <Tag
-                  key={index}
-                  name={data.description}
-                  title="金類"
-                  onClick={() => {
-                    console.log('cancel', data)
-                  }}
-                />
-              ))}
-            </div>
+            <div className="content">content</div>
           </div>
           <div className="body">
             {menu &&

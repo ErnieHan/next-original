@@ -108,3 +108,26 @@
     }
   }
 }
+
+@media (max-width: 767px) {
+  .antd-basic-layout {
+    aside {
+      display: none;
+    }
+
+    main {
+      padding-left: 0;
+    }
+
+    .tags-content {
+      position: relative;
+      display: flex;
+      overflow-x: auto;
+      width: 100%;
+    }
+  }
+
+  .results-content {
+    padding: 12px;
+  }
+}

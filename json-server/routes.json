@@ -1,3 +1,5 @@
 {
-  "/eshop-tw/api/shopping/v1/catalogItemSearches/search?*": "/search"
+  "/eshop-tw/api/shopping/v1/catalogItemSearches/search?*": "/search",
+  "/products/*": "/info",
+  "/shopping/v1/personalization/solitaire/recommendations?type=*": "/recommend"
 }

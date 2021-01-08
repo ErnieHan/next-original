@@ -1,0 +1,45 @@
+.solitaire-landing {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 35px;
+  width: 100%;
+
+  .landing-left-wrap {
+    padding: 0 30px;
+    width: 40%;
+
+    .head-title {
+      margin-bottom: 30px;
+      font-size: 45px;
+      font-weight: 300;
+      color: #474747;
+    }
+
+    .buttons-wrap {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 90px;
+
+      .style-button,
+      .diamond-button {
+        margin-right: 10px;
+        margin-left: 10px;
+        padding: 2px 15px;
+        width: calc(50% - 20px);
+        height: 50px;
+        font-weight: 300;
+        color: #fff;
+        background: #dda1a9;
+        border: 0;
+        border-radius: 6px;
+      }
+    }
+  }
+
+  .landing-right-wrap {
+    padding: 0 30px;
+    width: 50%;
+  }
+}

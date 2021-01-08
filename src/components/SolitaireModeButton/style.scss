@@ -1,0 +1,49 @@
+.mode-button-wrap {
+  padding: 0 15px;
+  width: 33.33%;
+
+  .mode-button-body {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    width: 100%;
+    background: #fff;
+    border-radius: 30px;
+    box-shadow: 0 3px 15px 5px rgba(0, 0, 0, 0.08);
+    cursor: pointer;
+
+    .name-wrap,
+    .image-wrap {
+      width: 50%;
+    }
+
+    .name-wrap {
+      .name {
+        display: inline-block;
+        padding-bottom: 3px;
+        font-size: 26px;
+        font-weight: 300;
+        color: #dda1a9;
+        border-bottom: 1px solid #dda1a9;
+      }
+    }
+
+    .image-wrap {
+      .image-box {
+        position: relative;
+        padding-bottom: 100%;
+        width: 100%;
+
+        .mode-image {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+  }
+}

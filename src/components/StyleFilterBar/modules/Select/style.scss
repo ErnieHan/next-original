@@ -1,0 +1,59 @@
+.style-filter-select {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 12px;
+
+  .sfs-title {
+    width: 65px;
+    font-size: 13px;
+    color: #dda1a9;
+    flex-shrink: 0;
+  }
+
+  .sfs-wrap {
+    position: relative;
+    width: calc(100% - 65px);
+
+    .sfs-selection {
+      position: relative;
+      padding: 15px;
+      width: 100%;
+      color: #dda1a9;
+      border: 1px solid #dda1a9;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+
+    .sfs-options-wrap {
+      position: absolute;
+      top: 105%;
+      left: 0;
+      overflow-y: auto;
+      width: 100%;
+      max-height: 250px;
+      background: #fff8f5;
+      border: 1px solid #dda1a9;
+      border-radius: 6px;
+      z-index: 1;
+
+      &.sfs-options-wrap--active {
+        display: block;
+      }
+
+      &:not(.sfs-options-wrap--active) {
+        display: none;
+      }
+
+      .sfs-option {
+        padding: 15px;
+        color: #dda1a9;
+        cursor: pointer;
+
+        &:hover {
+          background-color: rgba(0, 0, 0, 0.1);
+        }
+      }
+    }
+  }
+}

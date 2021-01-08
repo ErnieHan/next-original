@@ -1,6 +1,6 @@
 import { all, call, delay, put, take, takeLatest } from 'redux-saga/effects'
-import { updateExample, updateRefinements } from '../store/actions/update'
-import { setLoading } from '../store/actions/set'
+import { updateExample, updateRefinements, updateRecommends } from '../store/actions/update'
+import { setLoading, setActivePage } from '../store/actions/set'
 import { actionTypes } from '../store/actions/actionTypes'
 import { HOST_URL } from '../constants'
 import { stringify } from 'qs'
@@ -21,6 +21,7 @@ function* getExampleSaga() {
     console.error(error)
   }
 }
+
 function* getRefinementsSaga() {
   try {
     yield put(setLoading(true))
@@ -41,6 +42,38 @@ function* getRefinementsSaga() {
   }
 }
 
+function* getRecommendsSaga(context) {
+  const { params } = context
+  try {
+    const response = yield fetch(
+      `${HOST_URL}/shopping/v1/personalization/solitaire/recommendations?type=${params}`,
+      { method: 'GET' }
+    )
+    if (response.ok) {
+      const result = yield response.json()
+      yield put(updateRecommends(result))
+    } else {
+      throw new Error('GET_SOLITAIRE_RECOMMEND_FAILED')
+    }
+  } catch (error) {
+    console.error(error)
+  } finally {
+    yield put(setActivePage('landing'))
+  }
+}
+
+function* getStyleListSaga(context) {
+  const { obj, activeMode } = context
+  console.log('saga:', obj)
+  console.log('mode:', activeMode)
+  try {
+  } catch (error) {
+    console.error(error)
+  } finally {
+    yield put(setActivePage('style'))
+  }
+}
+
 function* postExampleSaga(context) {
   const { data } = context
   try {
@@ -52,7 +85,7 @@ function* postExampleSaga(context) {
     })
     if (response.ok) {
       const result = yield response.json()
-      yield put(updateExample(result))
+      yield put(updateSolitaireRecommend(result))
     } else {
       throw new Error('POST_EXAMPLE_FAILED')
     }
@@ -131,7 +164,9 @@ function* postRefinementsSaga2(context) {
 function* rootSaga() {
   yield all([
     takeLatest(actionTypes.GET_EXAMPLE, getExampleSaga),
+    takeLatest(actionTypes.GET_RECOMMENDS, getRecommendsSaga),
     takeLatest(actionTypes.GET_REFINEMENTS, getRefinementsSaga),
+    takeLatest(actionTypes.GET_STYLE_LIST, getStyleListSaga),
     takeLatest(actionTypes.POST_EXAMPLE, postExampleSaga),
     takeLatest(actionTypes.POST_REFINEMENTS, postRefinementsSaga2)
   ])

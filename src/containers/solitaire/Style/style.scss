@@ -1,0 +1,13 @@
+.solitaire-style {
+  display: flex;
+  padding: 0 35px;
+
+  .style-left-wrap {
+    padding: 0 15px;
+    width: 35%;
+  }
+
+  .style-right-wrap {
+    width: 65%;
+  }
+}

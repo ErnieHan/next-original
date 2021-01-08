@@ -1,0 +1,31 @@
+.style-filter-options {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 12px;
+
+  .sfo-title {
+    width: 65px;
+    font-size: 13px;
+    color: #dda1a9;
+    flex-shrink: 0;
+  }
+
+  .sfo-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: calc(100% - 65px);
+
+    .option-button {
+      padding: 15px;
+      width: 48%;
+      text-align: center;
+      color: #dda1a9;
+      background-color: transparent;
+      border: 1px solid #dda1a9;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+  }
+}

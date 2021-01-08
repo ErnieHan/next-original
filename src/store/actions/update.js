@@ -7,3 +7,7 @@ export const updateExample = data => {
 export const updateRefinements = data => {
   return { type: actionTypes.UPDATE_REFINEMENTS, data }
 }
+
+export const updateRecommends = data => {
+  return { type: actionTypes.UPDATE_RECOMMENDS, data }
+}

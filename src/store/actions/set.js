@@ -27,3 +27,15 @@ export const setInitSelection = data => {
 export const setFilter = data => {
   return { type: actionTypes.SET_FILTER, data }
 }
+
+export const setActiveMode = mode => {
+  return { type: actionTypes.SET_ACTIVE_MODE, mode }
+}
+
+export const setActivePage = page => {
+  return { type: actionTypes.SET_ACTIVE_PAGE, page }
+}
+
+export const setStyleParams = params => {
+  return { type: actionTypes.SET_STYLE_PARAMS, params }
+}

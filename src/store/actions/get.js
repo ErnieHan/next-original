@@ -7,3 +7,11 @@ export const getExample = () => {
 export const getRefinements = () => {
   return { type: actionTypes.GET_REFINEMENTS }
 }
+
+export const getRecommends = params => {
+  return { type: actionTypes.GET_RECOMMENDS, params }
+}
+
+export const getStyleList = (obj, activeMode) => {
+  return { type: actionTypes.GET_STYLE_LIST, obj, activeMode }
+}

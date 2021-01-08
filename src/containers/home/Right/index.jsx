@@ -12,7 +12,7 @@ function Right() {
   }
 
   return (
-    <selection className="right">
+    <section className="right">
       {menu && (
         <div className="filter-results-content">
           {menu.inputRefinements.map((data, index) => {
@@ -41,7 +41,7 @@ function Right() {
       以《One
       Piece》人氣角色索柏為設計藍本，黃金串珠可愛動人，同時運用了硬金電鑄及黑銠電鍍兩項工藝，令表面更具質感，可與其他《One
       Piece》串珠混搭佩戴，創造專屬您的冒險故事。
-    </selection>
+    </section>
   )
 }
 
