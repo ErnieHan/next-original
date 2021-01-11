@@ -1,8 +1,20 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 
 function Select({ data, active, handleChange }) {
   const [show, setShow] = useState(false)
   const selected = data.options.find(item => item.value === active)
+
+  useEffect(() => {
+    window.addEventListener('click', handleEvent)
+  }, [])
+
+  function handleEvent(event) {
+    const classList = event.target.classList
+    const enable = classList.contains('sfs-selection')
+    if (!enable) {
+      setShow(false)
+    }
+  }
 
   function handleToggle() {
     setShow(!show)
@@ -14,8 +26,6 @@ function Select({ data, active, handleChange }) {
     handleChange(value, code)
     setShow(false)
   }
-
-  console.log(active, selected)
 
   return (
     <div className="style-filter-select">

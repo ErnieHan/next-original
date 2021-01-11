@@ -1,6 +1,11 @@
 import { all, call, delay, put, take, takeLatest } from 'redux-saga/effects'
-import { updateExample, updateRefinements, updateRecommends } from '../store/actions/update'
-import { setLoading, setActivePage } from '../store/actions/set'
+import {
+  updateExample,
+  updateRefinements,
+  updateRecommends,
+  updateStyleList
+} from '../store/actions/update'
+import { setLoading, setActivePage, setStyleParams } from '../store/actions/set'
 import { actionTypes } from '../store/actions/actionTypes'
 import { HOST_URL } from '../constants'
 import { stringify } from 'qs'
@@ -63,10 +68,45 @@ function* getRecommendsSaga(context) {
 }
 
 function* getStyleListSaga(context) {
-  const { obj, activeMode } = context
-  console.log('saga:', obj)
-  console.log('mode:', activeMode)
   try {
+    const { obj, activeMode } = context
+    yield put(setStyleParams(obj))
+    const array = Object.keys(obj)
+    let params = {}
+    let type
+    // 將value值為null的欄位移除
+    for (var i = 0; i < array.length; i++) {
+      const key = [array[i]]
+      const value = obj[array[i]]
+      if (value !== 'default') {
+        params = {
+          ...params,
+          [key]: value
+        }
+      }
+    }
+    // 判斷目前的模式 新增type欄位
+    if (activeMode === 'ring') {
+      type = 'ringSetting'
+    } else if (activeMode === 'necklace') {
+      type = 'necklaceSetting'
+    } else if (activeMode === 'earring') {
+      type = 'earringSetting'
+    }
+    params = {
+      type,
+      ...params
+    }
+    console.log('params', params, obj)
+    // 取得款式資料
+    const response = yield fetch(
+      `${HOST_URL}/shopping/v1/personalization/solitaire/settings/search?${stringify(params)}`,
+      { method: 'GET' }
+    )
+    if (response.ok) {
+      const result = yield response.json()
+      yield put(updateStyleList(result))
+    }
   } catch (error) {
     console.error(error)
   } finally {

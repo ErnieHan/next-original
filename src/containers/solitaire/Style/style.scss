@@ -9,5 +9,11 @@
 
   .style-right-wrap {
     width: 65%;
+
+    .style-cards-wrap {
+      position: relative;
+      display: flex;
+      flex-wrap: wrap;
+    }
   }
 }

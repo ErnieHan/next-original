@@ -1,7 +1,7 @@
 import { HYDRATE } from 'next-redux-wrapper'
 import { actionTypes } from '../actions/actionTypes'
 
-const initState = {
+export const initState = {
   isLoading: false,
   showFilterMenu: false,
   showFilterSort: false,
@@ -9,16 +9,16 @@ const initState = {
   activeMode: null,
   activePage: 'home',
   styleParams: {
-    brandCode: null,
-    goldTypeCode: null,
-    subCollectionCode: null,
-    componentId: null,
-    style: null,
-    prongSetting: null,
-    ctWt: null,
-    minPrice: null,
-    maxPrice: null,
-    earringType: null
+    brandCode: 'default',
+    goldTypeCode: 'default',
+    subCollectionCode: 'default',
+    componentId: 'default',
+    style: 'default',
+    prongSetting: 'default',
+    ctWt: 'default',
+    minPrice: 'default',
+    maxPrice: 'default',
+    earringType: 'default'
   }
 }
 

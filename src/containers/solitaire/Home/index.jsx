@@ -4,12 +4,12 @@ import { useDispatch } from 'react-redux'
 import { setActiveMode } from '../../../store/actions/set'
 import { getRecommends } from '../../../store/actions/get'
 // compoent
-import SolitaireModeButton from '../../../components/SolitaireModeButton'
+import ModeButton from '../../../components/ModeButton'
 
 function Home() {
   const options = [
-    { name: '戒指', mode: 'ring', image: '', type: 'ringSetting' },
-    { name: '吊墜/項鍊', mode: 'necklace', image: '', type: 'necklaceSetting' },
+    { name: '戒指', mode: 'ring', image: '/images/ring.png', type: 'ringSetting' },
+    { name: '吊墜/項鍊', mode: 'necklace', image: '/images/necklace.png', type: 'necklaceSetting' },
     { name: '耳環', mode: 'earring', image: '', type: 'earringSetting' }
   ]
 
@@ -27,7 +27,7 @@ function Home() {
       <h3 className="head-title">選擇訂製飾品</h3>
       <div className="mode-content">
         {options.map((item, index) => (
-          <SolitaireModeButton key={index} item={item} handleMode={handleMode.bind(this)} />
+          <ModeButton key={index} item={item} handleMode={handleMode.bind(this)} />
         ))}
       </div>
       <h3 className="sub-title">訂製流程</h3>

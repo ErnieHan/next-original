@@ -2,11 +2,12 @@ import React from 'react'
 // redux
 import { useDispatch, useSelector } from 'react-redux'
 import { getStyleList } from '../../../store/actions/get'
+import { setActivePage } from '../../../store/actions/set'
 // components
 import LandingCard from '../../../components/LandingCard'
 // functions
 import isArray from '../../../functions/isArray'
-import initStyleParams from '../../../functions/initStyleParams'
+import { initState } from '../../../store/reducers/set'
 
 function Landing() {
   const activeMode = useSelector(state => state.set.activeMode)
@@ -44,13 +45,16 @@ function Landing() {
   }
 
   function handleStyle() {
-    const obj = {
-      ...initStyleParams
+    const init = initState.styleParams
+    let obj = {
+      ...init
     }
     dispatch(getStyleList(obj, activeMode))
   }
 
-  function handleDiamond() {}
+  function handleDiamond() {
+    dispatch(setActivePage('diamond'))
+  }
 
   return (
     <div className="solitaire-landing">

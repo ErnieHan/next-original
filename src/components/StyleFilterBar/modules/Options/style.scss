@@ -26,6 +26,11 @@
       border: 1px solid #dda1a9;
       border-radius: 8px;
       cursor: pointer;
+
+      &.option-button--active {
+        color: #fff;
+        background-color: #dda1a9;
+      }
     }
   }
 }

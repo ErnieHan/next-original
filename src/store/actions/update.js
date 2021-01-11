@@ -11,3 +11,7 @@ export const updateRefinements = data => {
 export const updateRecommends = data => {
   return { type: actionTypes.UPDATE_RECOMMENDS, data }
 }
+
+export const updateStyleList = data => {
+  return { type: actionTypes.UPDATE_STYLE_LIST, data }
+}

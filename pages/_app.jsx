@@ -30,10 +30,12 @@ import '../src/components/Item/style.scss'
 import '../src/components/Notification/style.scss'
 import '../src/components/Loading/Cards/style.scss'
 import '../src/components/Breadcrumbs/style.scss'
-import '../src/components/SolitaireModeButton/style.scss'
+import '../src/components/ModeButton/style.scss'
 import '../src/components/StyleFilterBar/style.scss'
 import '../src/components/StyleFilterBar/modules/Options/style.scss'
 import '../src/components/StyleFilterBar/modules/Select/style.scss'
+import '../src/components/StyleCard/style.scss'
+import '../src/components/Dialog/style.scss'
 
 function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />

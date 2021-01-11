@@ -1,5 +1,8 @@
 {
   "/eshop-tw/api/shopping/v1/catalogItemSearches/search?*": "/search",
   "/products/*": "/info",
-  "/shopping/v1/personalization/solitaire/recommendations?type=*": "/recommend"
+  "/shopping/v1/personalization/solitaire/recommendations?type=*": "/recommend",
+  "/shopping/v1/personalization/solitaire/settings/search?type=ringSetting*": "/ring-style-list",
+  "/shopping/v1/personalization/solitaire/settings/search?type=necklaceSetting*": "/necklace-style-list",
+  "/shopping/v1/personalization/solitaire/settings/search?type=earringSetting*": "/earring-style-list"
 }

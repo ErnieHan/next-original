@@ -4,7 +4,8 @@ import { actionTypes } from '../actions/actionTypes'
 const initState = {
   result: null,
   menu: null,
-  recommends: null
+  recommends: null,
+  styleList: null
 }
 
 const update = (state = initState, action) => {
@@ -32,6 +33,12 @@ const update = (state = initState, action) => {
       return {
         ...state,
         recommends: action.data
+      }
+
+    case actionTypes.UPDATE_STYLE_LIST:
+      return {
+        ...state,
+        styleList: action.data
       }
 
     default:

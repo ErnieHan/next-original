@@ -4802,5 +4802,2310 @@
       "image": "//cdn.chowsangsang.com/solitaire/images/87867r_18kw_dd_070.jpg",
       "recommendationTag": true
     }
-  ]
+  ],
+  "ring-style-list": {
+    "rowCount": 71,
+    "results": [
+      {
+        "templateId": "TEM00001",
+        "componentId": "PCS00001",
+        "catalogItemCode": "91265F-M950-00",
+        "brandCode": "PR",
+        "productName": "18K黃金及950鉑金戒指托",
+        "styleCatgNbr": "91265",
+        "diamondWtRange": "0.5-0.5",
+        "subCollection": "相融",
+        "image": "http://cdn.chowsangsang.com/solitaire/images/91265r_m950.jpg",
+        "price": 35900,
+        "recommendationTag": false,
+        "extendMetalTypes": [
+          {
+            "templateId": "TEM00001",
+            "componentId": "PCS00001",
+            "catalogItemCode": "91265F-M950-00",
+            "brandCode": "PR",
+            "productName": "18K黃金及950鉑金戒指托",
+            "styleCatgNbr": "91265",
+            "diamondWtRange": "0.5-0.5",
+            "subCollection": "相融",
+            "image": "http://cdn.chowsangsang.com/solitaire/images/91265r_m950_dd_050.jpg",
+            "price": 35900,
+            "recommendationTag": false
+          }
+        ]
+      },
+      {
+        "templateId": "TEM00001",
+        "componentId": "PCS00001",
+        "catalogItemCode": "86060F-P900-00",
+        "brandCode": "IL",
+        "productName": "900鉑金戒指托",
+        "styleCatgNbr": "86060",
+        "diamondWtRange": "0.3-0.3",
+        "subCollection": "婚嫁系列",
+        "image": "http://cdn.chowsangsang.com/solitaire/images/86060r_p900_dd_030.jpg",
+        "price": 23300,
+        "recommendationTag": false,
+        "extendMetalTypes": [
+          {
+            "templateId": "TEM00001",
+            "componentId": "PCS00001",
+            "catalogItemCode": "86060F-P900-00",
+            "brandCode": "IL",
+            "productName": "900鉑金戒指托",
+            "styleCatgNbr": "86060",
+            "diamondWtRange": "0.3-0.3",
+            "subCollection": "婚嫁系列",
+            "image": "http://cdn.chowsangsang.com/solitaire/images/86060r_p900_dd_030.jpg",
+            "price": 23300,
+            "recommendationTag": false
+          }
+        ]
+      },
+      {
+        "templateId": "TEM00001",
+        "componentId": "PCS00001",
+        "catalogItemCode": "91467F-18KW-00",
+        "brandCode": "PR",
+        "productName": "18K白色黃金戒指托",
+        "styleCatgNbr": "91467",
+        "diamondWtRange": "0.5-0.5",
+        "subCollection": "同心",
+        "image": "http://cdn.chowsangsang.com/solitaire/images/91467r_18kw_dd_050.jpg",
+        "price": 25000,
+        "recommendationTag": false,
+        "extendMetalTypes": [
+          {
+            "templateId": "TEM00001",
+            "componentId": "PCS00001",
+            "catalogItemCode": "91467F-18KW-00",
+            "brandCode": "PR",
+            "productName": "18K白色黃金戒指托",
+            "styleCatgNbr": "91467",
+            "diamondWtRange": "0.5-0.5",
+            "subCollection": "同心",
+            "image": "http://cdn.chowsangsang.com/solitaire/images/91467r_18kw_dd_050.jpg",
+            "price": 25000,
+            "recommendationTag": false
+          }
+        ]
+      },
+      {
+        "templateId": "TEM00001",
+        "componentId": "PCS00001",
+        "catalogItemCode": "90249F-18KW-00",
+        "brandCode": "PR",
+        "productName": "18K白色黃金戒指托",
+        "styleCatgNbr": "90249",
+        "diamondWtRange": "0.3-2.0",
+        "subCollection": "星宇",
+        "image": "http://cdn.chowsangsang.com/solitaire/images/90249r_18kw_dd_070.jpg",
+        "price": 15200,
+        "recommendationTag": false,
+        "extendMetalTypes": [
+          {
+            "templateId": "TEM00001",
+            "componentId": "PCS00001",
+            "catalogItemCode": "90249F-18KW-00",
+            "brandCode": "PR",
+            "productName": "18K白色黃金戒指托",
+            "styleCatgNbr": "90249",
+            "diamondWtRange": "0.3-2.0",
+            "subCollection": "星宇",
+            "image": "http://cdn.chowsangsang.com/solitaire/images/90249r_18kw_dd_070.jpg",
+            "price": 15200,
+            "recommendationTag": false
+          }
+        ]
+      },
+      {
+        "templateId": "TEM00001",
+        "componentId": "PCS00001",
+        "catalogItemCode": "14346F-18KW-00",
+        "brandCode": "PR",
+        "productName": "18K白色黃金戒指托",
+        "styleCatgNbr": "14346",
+        "diamondWtRange": "0.3-0.5",
+        "subCollection": "如一",
+        "image": "http://cdn.chowsangsang.com/solitaire/images/14346r_18kw_dd_030.jpg",
+        "price": 12000,
+        "recommendationTag": false,
+        "extendMetalTypes": [
+          {
+            "templateId": "TEM00001",
+            "componentId": "PCS00001",
+            "catalogItemCode": "14346F-18KW-00",
+            "brandCode": "PR",
+            "productName": "18K白色黃金戒指托",
+            "styleCatgNbr": "14346",
+            "diamondWtRange": "0.3-0.5",
+            "subCollection": "如一",
+            "image": "http://cdn.chowsangsang.com/solitaire/images/14346r_18kw_dd_030.jpg",
+            "price": 12000,
+            "recommendationTag": false
+          },
+          {
+            "templateId": "TEM00001",
+            "componentId": "PCS00001",
+            "catalogItemCode": "14346F-18KR-00",
+            "brandCode": "PR",
+            "productName": "18K紅色黃金戒指托",
+            "styleCatgNbr": "14346",
+            "diamondWtRange": "0.3-0.5",
+            "subCollection": "如一",
+            "image": "http://cdn.chowsangsang.com/solitaire/images/14346r_18kr_dd_030.jpg",
+            "price": 12000,
+            "recommendationTag": false
+          }
+        ]
+      },
+      {
+        "templateId": "TEM00001",
+        "componentId": "PCS00001",
+        "catalogItemCode": "79425F-P900-00",
+        "brandCode": "IL",
+        "productName": "900鉑金戒指托",
+        "styleCatgNbr": "79425",
+        "diamondWtRange": "0.3-1.0",
+        "subCollection": "婚嫁系列",
+        "image": "http://cdn.chowsangsang.com/solitaire/images/79425r_p900_dd_070.jpg",
+        "price": 17500,
+        "recommendationTag": false,
+        "extendMetalTypes": [
+          {
+            "templateId": "TEM00001",
+            "componentId": "PCS00001",
+            "catalogItemCode": "79425F-P900-00",
+            "brandCode": "IL",
+            "productName": "900鉑金戒指托",
+            "styleCatgNbr": "79425",
+            "diamondWtRange": "0.3-1.0",
+            "subCollection": "婚嫁系列",
+            "image": "http://cdn.chowsangsang.com/solitaire/images/79425r_p900_dd_070.jpg",
+            "price": 17500,
+            "recommendationTag": false
+          }
+        ]
+      },
+      {
+        "templateId": "TEM00001",
+        "componentId": "PCS00001",
+        "catalogItemCode": "73306F-P900-00",
+        "brandCode": "IL",
+        "productName": "900鉑金戒指托",
+        "styleCatgNbr": "73306",
+        "diamondWtRange": "0.3-2.0",
+        "subCollection": "典雅系列",
+        "image": "http://cdn.chowsangsang.com/solitaire/images/73306r_p900_dd_070.jpg",
+        "price": 13300,
+        "recommendationTag": false,
+        "extendMetalTypes": [
+          {
+            "templateId": "TEM00001",
+            "componentId": "PCS00001",
+            "catalogItemCode": "73306F-P900-00",
+            "brandCode": "IL",
+            "productName": "900鉑金戒指托",
+            "styleCatgNbr": "73306",
+            "diamondWtRange": "0.3-2.0",
+            "subCollection": "典雅系列",
+            "image": "http://cdn.chowsangsang.com/solitaire/images/73306r_p900_dd_070.jpg",
+            "price": 13300,
+            "recommendationTag": false
+          }
+        ]
+      },
+      {
+        "templateId": "TEM00001",
+        "componentId": "PCS00001",
+        "catalogItemCode": "90257F-18KW-00",
+        "brandCode": "PR",
+        "productName": "18K白色黃金戒指托",
+        "styleCatgNbr": "90257",
+        "diamondWtRange": "0.3-2.0",
+        "subCollection": "星宇",
+        "image": "http://cdn.chowsangsang.com/solitaire/images/90257r_18kw_dd_070.jpg",
+        "price": 29600,
+        "recommendationTag": false,
+        "extendMetalTypes": [
+          {
+            "templateId": "TEM00001",
+            "componentId": "PCS00001",
+            "catalogItemCode": "90257F-18KW-00",
+            "brandCode": "PR",
+            "productName": "18K白色黃金戒指托",
+            "styleCatgNbr": "90257",
+            "diamondWtRange": "0.3-2.0",
+            "subCollection": "星宇",
+            "image": "http://cdn.chowsangsang.com/solitaire/images/90257r_18kw_dd_070.jpg",
+            "price": 29600,
+            "recommendationTag": false
+          }
+        ]
+      },
+      {
+        "templateId": "TEM00001",
+        "componentId": "PCS00001",
+        "catalogItemCode": "90245F-18KW-00",
+        "brandCode": "PR",
+        "productName": "18K白色黃金戒指托",
+        "styleCatgNbr": "90245",
+        "diamondWtRange": "0.3-2.0",
+        "subCollection": "如一",
+        "image": "http://cdn.chowsangsang.com/solitaire/images/90245r_18kw_dd_070.jpg",
+        "price": 15000,
+        "recommendationTag": false,
+        "extendMetalTypes": [
+          {
+            "templateId": "TEM00001",
+            "componentId": "PCS00001",
+            "catalogItemCode": "90245F-18KW-00",
+            "brandCode": "PR",
+            "productName": "18K白色黃金戒指托",
+            "styleCatgNbr": "90245",
+            "diamondWtRange": "0.3-2.0",
+            "subCollection": "如一",
+            "image": "http://cdn.chowsangsang.com/solitaire/images/90245r_18kw_dd_070.jpg",
+            "price": 15000,
+            "recommendationTag": false
+          },
+          {
+            "templateId": "TEM00001",
+            "componentId": "PCS00001",
+            "catalogItemCode": "90245F-18KR-00",
+            "brandCode": "PR",
+            "productName": "18K紅色黃金戒指托",
+            "styleCatgNbr": "90245",
+            "diamondWtRange": "0.3-2.0",
+            "subCollection": "如一",
+            "image": "http://cdn.chowsangsang.com/solitaire/images/90245r_18kr_dd_070.jpg",
+            "price": 15000,
+            "recommendationTag": false
+          }
+        ]
+      },
+      {
+        "templateId": "TEM00001",
+        "componentId": "PCS00001",
+        "catalogItemCode": "49471F-18KW-00",
+        "brandCode": "PR",
+        "productName": "18K白色黃金戒指托",
+        "styleCatgNbr": "49471",
+        "diamondWtRange": "0.3-1.0",
+        "subCollection": "如一",
+        "image": "http://cdn.chowsangsang.com/solitaire/images/49471r_18kw_dd_070.jpg",
+        "price": 13800,
+        "recommendationTag": false,
+        "extendMetalTypes": [
+          {
+            "templateId": "TEM00001",
+            "componentId": "PCS00001",
+            "catalogItemCode": "49471F-18KW-00",
+            "brandCode": "PR",
+            "productName": "18K白色黃金戒指托",
+            "styleCatgNbr": "49471",
+            "diamondWtRange": "0.3-1.0",
+            "subCollection": "如一",
+            "image": "http://cdn.chowsangsang.com/solitaire/images/49471r_18kw_dd_070.jpg",
+            "price": 13800,
+            "recommendationTag": false
+          },
+          {
+            "templateId": "TEM00001",
+            "componentId": "PCS00001",
+            "catalogItemCode": "49471F-18KR-00",
+            "brandCode": "PR",
+            "productName": "18K紅色黃金戒指托",
+            "styleCatgNbr": "49471",
+            "diamondWtRange": "0.3-1.0",
+            "subCollection": "如一",
+            "image": "http://cdn.chowsangsang.com/solitaire/images/49471r_18kr_dd_070.jpg",
+            "price": 13800,
+            "recommendationTag": false
+          }
+        ]
+      },
+      {
+        "templateId": "TEM00001",
+        "componentId": "PCS00001",
+        "catalogItemCode": "90253F-18KW-00",
+        "brandCode": "PR",
+        "productName": "18K白色黃金戒指托",
+        "styleCatgNbr": "90253",
+        "diamondWtRange": "0.3-2.0",
+        "subCollection": "星宇",
+        "image": "http://cdn.chowsangsang.com/solitaire/images/90253r_18kw_dd_070.jpg",
+        "price": 19000,
+        "recommendationTag": false,
+        "extendMetalTypes": [
+          {
+            "templateId": "TEM00001",
+            "componentId": "PCS00001",
+            "catalogItemCode": "90253F-18KW-00",
+            "brandCode": "PR",
+            "productName": "18K白色黃金戒指托",
+            "styleCatgNbr": "90253",
+            "diamondWtRange": "0.3-2.0",
+            "subCollection": "星宇",
+            "image": "http://cdn.chowsangsang.com/solitaire/images/90253r_18kw_dd_070.jpg",
+            "price": 19000,
+            "recommendationTag": false
+          }
+        ]
+      },
+      {
+        "templateId": "TEM00001",
+        "componentId": "PCS00001",
+        "catalogItemCode": "79481F-P900-00",
+        "brandCode": "IL",
+        "productName": "900鉑金戒指托",
+        "styleCatgNbr": "79481",
+        "diamondWtRange": "0.3-1.0",
+        "subCollection": "典雅系列",
+        "image": "http://cdn.chowsangsang.com/solitaire/images/79481r_p900_dd_070.jpg",
+        "price": 54000,
+        "recommendationTag": false,
+        "extendMetalTypes": [
+          {
+            "templateId": "TEM00001",
+            "componentId": "PCS00001",
+            "catalogItemCode": "79481F-P900-00",
+            "brandCode": "IL",
+            "productName": "900鉑金戒指托",
+            "styleCatgNbr": "79481",
+            "diamondWtRange": "0.3-1.0",
+            "subCollection": "典雅系列",
+            "image": "http://cdn.chowsangsang.com/solitaire/images/79481r_p900_dd_070.jpg",
+            "price": 54000,
+            "recommendationTag": false
+          }
+        ]
+      },
+      {
+        "templateId": "TEM00002",
+        "componentId": "PCS00006",
+        "catalogItemCode": "88417F-18KW-00",
+        "brandCode": "PR",
+        "productName": "18K白色黃金戒指托",
+        "styleCatgNbr": "88417",
+        "diamondWtRange": "0.5-1.5",
+        "subCollection": "如一",
+        "image": "http://cdn.chowsangsang.com/solitaire/images/88417r_18kw_dd_070.jpg",
+        "price": 20300,
+        "recommendationTag": false,
+        "extendMetalTypes": [
+          {
+            "templateId": "TEM00002",
+            "componentId": "PCS00006",
+            "catalogItemCode": "88417F-18KW-00",
+            "brandCode": "PR",
+            "productName": "18K白色黃金戒指托",
+            "styleCatgNbr": "88417",
+            "diamondWtRange": "0.5-1.5",
+            "subCollection": "如一",
+            "image": "http://cdn.chowsangsang.com/solitaire/images/88417r_18kw_dd_070.jpg",
+            "price": 20300,
+            "recommendationTag": false
+          }
+        ]
+      },
+      {
+        "templateId": "TEM00001",
+        "componentId": "PCS00001",
+        "catalogItemCode": "84383F-18KW-00",
+        "brandCode": "PR",
+        "productName": "18K白色黃金戒指托",
+        "styleCatgNbr": "84383",
+        "diamondWtRange": "0.3-1.0",
+        "subCollection": "如一",
+        "image": "http://cdn.chowsangsang.com/solitaire/images/84383r_18kw_dd_070.jpg",
+        "price": 13500,
+        "recommendationTag": false,
+        "extendMetalTypes": [
+          {
+            "templateId": "TEM00001",
+            "componentId": "PCS00001",
+            "catalogItemCode": "84383F-18KW-00",
+            "brandCode": "PR",
+            "productName": "18K白色黃金戒指托",
+            "styleCatgNbr": "84383",
+            "diamondWtRange": "0.3-1.0",
+            "subCollection": "如一",
+            "image": "http://cdn.chowsangsang.com/solitaire/images/84383r_18kw_dd_070.jpg",
+            "price": 13500,
+            "recommendationTag": false
+          },
+          {
+            "templateId": "TEM00001",
+            "componentId": "PCS00001",
+            "catalogItemCode": "84383F-18KR-00",
+            "brandCode": "PR",
+            "productName": "18K紅色黃金戒指托",
+            "styleCatgNbr": "84383",
+            "diamondWtRange": "0.3-1.0",
+            "subCollection": "如一",
+            "image": "http://cdn.chowsangsang.com/solitaire/images/84383r_18kr_dd_070.jpg",
+            "price": 13500,
+            "recommendationTag": false
+          }
+        ]
+      },
+      {
+        "templateId": "TEM00001",
+        "componentId": "PCS00001",
+        "catalogItemCode": "88865F-P900-00",
+        "brandCode": "IL",
+        "productName": "900鉑金戒指托",
+        "styleCatgNbr": "88865",
+        "diamondWtRange": "2.0-2.0",
+        "subCollection": "婚嫁系列",
+        "image": "http://cdn.chowsangsang.com/solitaire/images/88865r_p900_dd_200.jpg",
+        "price": 28500,
+        "recommendationTag": false,
+        "extendMetalTypes": [
+          {
+            "templateId": "TEM00001",
+            "componentId": "PCS00001",
+            "catalogItemCode": "88865F-P900-00",
+            "brandCode": "IL",
+            "productName": "900鉑金戒指托",
+            "styleCatgNbr": "88865",
+            "diamondWtRange": "2.0-2.0",
+            "subCollection": "婚嫁系列",
+            "image": "http://cdn.chowsangsang.com/solitaire/images/88865r_p900_dd_200.jpg",
+            "price": 28500,
+            "recommendationTag": false
+          }
+        ]
+      },
+      {
+        "templateId": "TEM00001",
+        "componentId": "PCS00001",
+        "catalogItemCode": "89692F-P900-00",
+        "brandCode": "IL",
+        "productName": "900鉑金戒指托",
+        "styleCatgNbr": "89692",
+        "diamondWtRange": "0.5-1.5",
+        "subCollection": "婚嫁系列",
+        "image": "http://cdn.chowsangsang.com/solitaire/images/89692r_p900_dd_070.jpg",
+        "price": 16300,
+        "recommendationTag": false,
+        "extendMetalTypes": [
+          {
+            "templateId": "TEM00001",
+            "componentId": "PCS00001",
+            "catalogItemCode": "89692F-P900-00",
+            "brandCode": "IL",
+            "productName": "900鉑金戒指托",
+            "styleCatgNbr": "89692",
+            "diamondWtRange": "0.5-1.5",
+            "subCollection": "婚嫁系列",
+            "image": "http://cdn.chowsangsang.com/solitaire/images/89692r_p900_dd_070.jpg",
+            "price": 16300,
+            "recommendationTag": false
+          }
+        ]
+      },
+      {
+        "templateId": "TEM00001",
+        "componentId": "PCS00001",
+        "catalogItemCode": "75847F-18KW-00",
+        "brandCode": "PR",
+        "productName": "18K白色黃金戒指托",
+        "styleCatgNbr": "75847",
+        "diamondWtRange": "0.5-2.0",
+        "subCollection": "星宇",
+        "image": "http://cdn.chowsangsang.com/solitaire/images/75847r_18kw_dd_070.jpg",
+        "price": 38500,
+        "recommendationTag": false,
+        "extendMetalTypes": [
+          {
+            "templateId": "TEM00001",
+            "componentId": "PCS00001",
+            "catalogItemCode": "75847F-18KW-00",
+            "brandCode": "PR",
+            "productName": "18K白色黃金戒指托",
+            "styleCatgNbr": "75847",
+            "diamondWtRange": "0.5-2.0",
+            "subCollection": "星宇",
+            "image": "http://cdn.chowsangsang.com/solitaire/images/75847r_18kw_dd_070.jpg",
+            "price": 38500,
+            "recommendationTag": false
+          }
+        ]
+      },
+      {
+        "templateId": "TEM00001",
+        "componentId": "PCS00001",
+        "catalogItemCode": "90147F-18KW-00",
+        "brandCode": "PR",
+        "productName": "18K白色黃金戒指托",
+        "styleCatgNbr": "90147",
+        "diamondWtRange": "0.3-1.0",
+        "subCollection": "伯爵小皇冠",
+        "image": "http://cdn.chowsangsang.com/solitaire/images/90147r_18kw_dd_070.jpg",
+        "price": 16900,
+        "recommendationTag": false,
+        "extendMetalTypes": [
+          {
+            "templateId": "TEM00001",
+            "componentId": "PCS00001",
+            "catalogItemCode": "90147F-18KW-00",
+            "brandCode": "PR",
+            "productName": "18K白色黃金戒指托",
+            "styleCatgNbr": "90147",
+            "diamondWtRange": "0.3-1.0",
+            "subCollection": "伯爵小皇冠",
+            "image": "http://cdn.chowsangsang.com/solitaire/images/90147r_18kw_dd_070.jpg",
+            "price": 16900,
+            "recommendationTag": false
+          },
+          {
+            "templateId": "TEM00001",
+            "componentId": "PCS00001",
+            "catalogItemCode": "90147F-18KR-00",
+            "brandCode": "PR",
+            "productName": "18K紅色黃金戒指托",
+            "styleCatgNbr": "90147",
+            "diamondWtRange": "0.3-1.0",
+            "subCollection": "伯爵小皇冠",
+            "image": "http://cdn.chowsangsang.com/solitaire/images/90147r_18kr_dd_070.jpg",
+            "price": 16900,
+            "recommendationTag": false
+          }
+        ]
+      },
+      {
+        "templateId": "TEM00001",
+        "componentId": "PCS00001",
+        "catalogItemCode": "85985F-P900-00",
+        "brandCode": "IL",
+        "productName": "900鉑金戒指托",
+        "styleCatgNbr": "85985",
+        "diamondWtRange": "0.3-0.5",
+        "subCollection": "婚嫁系列",
+        "image": "http://cdn.chowsangsang.com/solitaire/images/85985r_p900_dd_030.jpg",
+        "price": 18600,
+        "recommendationTag": false,
+        "extendMetalTypes": [
+          {
+            "templateId": "TEM00001",
+            "componentId": "PCS00001",
+            "catalogItemCode": "85985F-P900-00",
+            "brandCode": "IL",
+            "productName": "900鉑金戒指托",
+            "styleCatgNbr": "85985",
+            "diamondWtRange": "0.3-0.5",
+            "subCollection": "婚嫁系列",
+            "image": "http://cdn.chowsangsang.com/solitaire/images/85985r_p900_dd_030.jpg",
+            "price": 18600,
+            "recommendationTag": false
+          }
+        ]
+      },
+      {
+        "templateId": "TEM00001",
+        "componentId": "PCS00001",
+        "catalogItemCode": "87582F-18WR-00",
+        "brandCode": "PR",
+        "productName": "18K白紅分色黃金戒指托",
+        "styleCatgNbr": "87582",
+        "diamondWtRange": "0.3-1.0",
+        "subCollection": "伯爵小皇冠",
+        "image": "http://cdn.chowsangsang.com/solitaire/images/87582r_18wr_dd_070.jpg",
+        "price": 20700,
+        "recommendationTag": false,
+        "extendMetalTypes": [
+          {
+            "templateId": "TEM00001",
+            "componentId": "PCS00001",
+            "catalogItemCode": "87582F-18WR-00",
+            "brandCode": "PR",
+            "productName": "18K白紅分色黃金戒指托",
+            "styleCatgNbr": "87582",
+            "diamondWtRange": "0.3-1.0",
+            "subCollection": "伯爵小皇冠",
+            "image": "http://cdn.chowsangsang.com/solitaire/images/87582r_18wr_dd_070.jpg",
+            "price": 20700,
+            "recommendationTag": false
+          }
+        ]
+      },
+      {
+        "templateId": "TEM00001",
+        "componentId": "PCS00001",
+        "catalogItemCode": "79429F-P900-00",
+        "brandCode": "IL",
+        "productName": "900鉑金戒指托",
+        "styleCatgNbr": "79429",
+        "diamondWtRange": "0.3-2.0",
+        "subCollection": "婚嫁系列",
+        "image": "http://cdn.chowsangsang.com/solitaire/images/79429r_p900_dd_070.jpg",
+        "price": 20500,
+        "recommendationTag": false,
+        "extendMetalTypes": [
+          {
+            "templateId": "TEM00001",
+            "componentId": "PCS00001",
+            "catalogItemCode": "79429F-P900-00",
+            "brandCode": "IL",
+            "productName": "900鉑金戒指托",
+            "styleCatgNbr": "79429",
+            "diamondWtRange": "0.3-2.0",
+            "subCollection": "婚嫁系列",
+            "image": "http://cdn.chowsangsang.com/solitaire/images/79429r_p900_dd_070.jpg",
+            "price": 20500,
+            "recommendationTag": false
+          }
+        ]
+      },
+      {
+        "templateId": "TEM00001",
+        "componentId": "PCS00001",
+        "catalogItemCode": "91293F-18KW-00",
+        "brandCode": "PR",
+        "productName": "18K白色黃金戒指托",
+        "styleCatgNbr": "91293",
+        "diamondWtRange": "0.5-3.0",
+        "subCollection": "同心",
+        "image": "http://cdn.chowsangsang.com/solitaire/images/91293r_18kw_dd_070.jpg",
+        "price": 23700,
+        "recommendationTag": false,
+        "extendMetalTypes": [
+          {
+            "templateId": "TEM00001",
+            "componentId": "PCS00001",
+            "catalogItemCode": "91293F-18KW-00",
+            "brandCode": "PR",
+            "productName": "18K白色黃金戒指托",
+            "styleCatgNbr": "91293",
+            "diamondWtRange": "0.5-3.0",
+            "subCollection": "同心",
+            "image": "http://cdn.chowsangsang.com/solitaire/images/91293r_18kw_dd_070.jpg",
+            "price": 23700,
+            "recommendationTag": false
+          },
+          {
+            "templateId": "TEM00001",
+            "componentId": "PCS00001",
+            "catalogItemCode": "91293F-18WR-00",
+            "brandCode": "PR",
+            "productName": "18K白紅分色黃金戒指托",
+            "styleCatgNbr": "91293",
+            "diamondWtRange": "0.5-3.0",
+            "subCollection": "同心",
+            "image": "http://cdn.chowsangsang.com/solitaire/images/91293r_18wr_dd_070.jpg",
+            "price": 23700,
+            "recommendationTag": false
+          },
+          {
+            "templateId": "TEM00001",
+            "componentId": "PCS00001",
+            "catalogItemCode": "91293F-18KR-00",
+            "brandCode": "PR",
+            "productName": "18K紅色黃金戒指托",
+            "styleCatgNbr": "91293",
+            "diamondWtRange": "0.5-3.0",
+            "subCollection": "同心",
+            "image": "http://cdn.chowsangsang.com/solitaire/images/91293r_18kr_dd_070.jpg",
+            "price": 23700,
+            "recommendationTag": false
+          }
+        ]
+      },
+      {
+        "templateId": "TEM00001",
+        "componentId": "PCS00001",
+        "catalogItemCode": "35300F-18KW-00",
+        "brandCode": "PR",
+        "productName": "18K白色黃金戒指托",
+        "styleCatgNbr": "35300",
+        "diamondWtRange": "0.3-3.0",
+        "subCollection": "伯爵小皇冠",
+        "image": "http://cdn.chowsangsang.com/solitaire/images/35300r_18kw_dd_070.jpg",
+        "price": 15800,
+        "recommendationTag": true,
+        "extendMetalTypes": [
+          {
+            "templateId": "TEM00001",
+            "componentId": "PCS00001",
+            "catalogItemCode": "35300F-18KW-00",
+            "brandCode": "PR",
+            "productName": "18K白色黃金戒指托",
+            "styleCatgNbr": "35300",
+            "diamondWtRange": "0.3-3.0",
+            "subCollection": "伯爵小皇冠",
+            "image": "http://cdn.chowsangsang.com/solitaire/images/35300r_18kw_dd_070.jpg",
+            "price": 15800,
+            "recommendationTag": true
+          },
+          {
+            "templateId": "TEM00001",
+            "componentId": "PCS00001",
+            "catalogItemCode": "35300F-18KR-00",
+            "brandCode": "PR",
+            "productName": "18K紅色黃金戒指托",
+            "styleCatgNbr": "35300",
+            "diamondWtRange": "0.3-3.0",
+            "subCollection": "伯爵小皇冠",
+            "image": "http://cdn.chowsangsang.com/solitaire/images/35300r_18kr_dd_070.jpg",
+            "price": 15800,
+            "recommendationTag": false
+          },
+          {
+            "templateId": "TEM00001",
+            "componentId": "PCS00001",
+            "catalogItemCode": "35300F-P900-00",
+            "brandCode": "PR",
+            "productName": "900鉑金戒指托",
+            "styleCatgNbr": "35300",
+            "diamondWtRange": "0.3-3.0",
+            "subCollection": "伯爵小皇冠",
+            "image": "http://cdn.chowsangsang.com/solitaire/images/35300r_p900_dd_070.jpg",
+            "price": 15700,
+            "recommendationTag": false
+          }
+        ]
+      },
+      {
+        "templateId": "TEM00001",
+        "componentId": "PCS00001",
+        "catalogItemCode": "85921F-P900-00",
+        "brandCode": "IL",
+        "productName": "900鉑金戒指托",
+        "styleCatgNbr": "85921",
+        "diamondWtRange": "0.3-0.3",
+        "subCollection": "婚嫁系列",
+        "image": "http://cdn.chowsangsang.com/solitaire/images/85921r_p900_dd_030.jpg",
+        "price": 32200,
+        "recommendationTag": false,
+        "extendMetalTypes": [
+          {
+            "templateId": "TEM00001",
+            "componentId": "PCS00001",
+            "catalogItemCode": "85921F-P900-00",
+            "brandCode": "IL",
+            "productName": "900鉑金戒指托",
+            "styleCatgNbr": "85921",
+            "diamondWtRange": "0.3-0.3",
+            "subCollection": "婚嫁系列",
+            "image": "http://cdn.chowsangsang.com/solitaire/images/85921r_p900_dd_030.jpg",
+            "price": 32200,
+            "recommendationTag": false
+          }
+        ]
+      },
+      {
+        "templateId": "TEM00001",
+        "componentId": "PCS00001",
+        "catalogItemCode": "80750F-P900-00",
+        "brandCode": "IL",
+        "productName": "900鉑金戒指托",
+        "styleCatgNbr": "80750",
+        "diamondWtRange": "0.3-1.5",
+        "subCollection": "婚嫁系列",
+        "image": "http://cdn.chowsangsang.com/solitaire/images/80750r_p900_dd_070.jpg",
+        "price": 18500,
+        "recommendationTag": true,
+        "extendMetalTypes": [
+          {
+            "templateId": "TEM00001",
+            "componentId": "PCS00001",
+            "catalogItemCode": "80750F-P900-00",
+            "brandCode": "IL",
+            "productName": "900鉑金戒指托",
+            "styleCatgNbr": "80750",
+            "diamondWtRange": "0.3-1.5",
+            "subCollection": "婚嫁系列",
+            "image": "http://cdn.chowsangsang.com/solitaire/images/80750r_p900_dd_070.jpg",
+            "price": 18500,
+            "recommendationTag": true
+          }
+        ]
+      },
+      {
+        "templateId": "TEM00001",
+        "componentId": "PCS00001",
+        "catalogItemCode": "85231F-P900-00",
+        "brandCode": "IL",
+        "productName": "900鉑金戒指托",
+        "styleCatgNbr": "85231",
+        "diamondWtRange": "0.4-0.5",
+        "subCollection": "婚嫁系列",
+        "image": "http://cdn.chowsangsang.com/solitaire/images/85231r_p900_dd_050.jpg",
+        "price": 33300,
+        "recommendationTag": false,
+        "extendMetalTypes": [
+          {
+            "templateId": "TEM00001",
+            "componentId": "PCS00001",
+            "catalogItemCode": "85231F-P900-00",
+            "brandCode": "IL",
+            "productName": "900鉑金戒指托",
+            "styleCatgNbr": "85231",
+            "diamondWtRange": "0.4-0.5",
+            "subCollection": "婚嫁系列",
+            "image": "http://cdn.chowsangsang.com/solitaire/images/85231r_p900_dd_050.jpg",
+            "price": 33300,
+            "recommendationTag": false
+          }
+        ]
+      },
+      {
+        "templateId": "TEM00001",
+        "componentId": "PCS00001",
+        "catalogItemCode": "79478F-P900-00",
+        "brandCode": "IL",
+        "productName": "900鉑金戒指托",
+        "styleCatgNbr": "79478",
+        "diamondWtRange": "0.3-1.0",
+        "subCollection": "典雅系列",
+        "image": "http://cdn.chowsangsang.com/solitaire/images/79478r_p900_dd_070.jpg",
+        "price": 54000,
+        "recommendationTag": false,
+        "extendMetalTypes": [
+          {
+            "templateId": "TEM00001",
+            "componentId": "PCS00001",
+            "catalogItemCode": "79478F-P900-00",
+            "brandCode": "IL",
+            "productName": "900鉑金戒指托",
+            "styleCatgNbr": "79478",
+            "diamondWtRange": "0.3-1.0",
+            "subCollection": "典雅系列",
+            "image": "http://cdn.chowsangsang.com/solitaire/images/79478r_p900_dd_070.jpg",
+            "price": 54000,
+            "recommendationTag": false
+          }
+        ]
+      },
+      {
+        "templateId": "TEM00001",
+        "componentId": "PCS00001",
+        "catalogItemCode": "91468F-18KW-00",
+        "brandCode": "PR",
+        "productName": "18K白色黃金戒指托",
+        "styleCatgNbr": "91468",
+        "diamondWtRange": "0.5-0.5",
+        "subCollection": "伯爵小皇冠",
+        "image": "http://cdn.chowsangsang.com/solitaire/images/91468r_18kw_dd_050.jpg",
+        "price": 23700,
+        "recommendationTag": false,
+        "extendMetalTypes": [
+          {
+            "templateId": "TEM00001",
+            "componentId": "PCS00001",
+            "catalogItemCode": "91468F-18KW-00",
+            "brandCode": "PR",
+            "productName": "18K白色黃金戒指托",
+            "styleCatgNbr": "91468",
+            "diamondWtRange": "0.5-0.5",
+            "subCollection": "伯爵小皇冠",
+            "image": "http://cdn.chowsangsang.com/solitaire/images/91468r_18kw_dd_050.jpg",
+            "price": 23700,
+            "recommendationTag": false
+          }
+        ]
+      },
+      {
+        "templateId": "TEM00001",
+        "componentId": "PCS00001",
+        "catalogItemCode": "86061F-P900-00",
+        "brandCode": "IL",
+        "productName": "900鉑金戒指托",
+        "styleCatgNbr": "86061",
+        "diamondWtRange": "0.3-0.5",
+        "subCollection": "婚嫁系列",
+        "image": "http://cdn.chowsangsang.com/solitaire/images/86061r_p900_dd_030.jpg",
+        "price": 26000,
+        "recommendationTag": false,
+        "extendMetalTypes": [
+          {
+            "templateId": "TEM00001",
+            "componentId": "PCS00001",
+            "catalogItemCode": "86061F-P900-00",
+            "brandCode": "IL",
+            "productName": "900鉑金戒指托",
+            "styleCatgNbr": "86061",
+            "diamondWtRange": "0.3-0.5",
+            "subCollection": "婚嫁系列",
+            "image": "http://cdn.chowsangsang.com/solitaire/images/86061r_p900_dd_030.jpg",
+            "price": 26000,
+            "recommendationTag": false
+          }
+        ]
+      },
+      {
+        "templateId": "TEM00001",
+        "componentId": "PCS00001",
+        "catalogItemCode": "73307F-P900-00",
+        "brandCode": "IL",
+        "productName": "900鉑金戒指托",
+        "styleCatgNbr": "73307",
+        "diamondWtRange": "0.3-1.0",
+        "subCollection": "典雅系列",
+        "image": "http://cdn.chowsangsang.com/solitaire/images/73307r_p900_dd_070.jpg",
+        "price": 14200,
+        "recommendationTag": false,
+        "extendMetalTypes": [
+          {
+            "templateId": "TEM00001",
+            "componentId": "PCS00001",
+            "catalogItemCode": "73307F-P900-00",
+            "brandCode": "IL",
+            "productName": "900鉑金戒指托",
+            "styleCatgNbr": "73307",
+            "diamondWtRange": "0.3-1.0",
+            "subCollection": "典雅系列",
+            "image": "http://cdn.chowsangsang.com/solitaire/images/73307r_p900_dd_070.jpg",
+            "price": 14200,
+            "recommendationTag": false
+          }
+        ]
+      },
+      {
+        "templateId": "TEM00001",
+        "componentId": "PCS00001",
+        "catalogItemCode": "90254F-18KW-00",
+        "brandCode": "PR",
+        "productName": "18K白色黃金戒指托",
+        "styleCatgNbr": "90254",
+        "diamondWtRange": "0.3-1.0",
+        "subCollection": "星宇",
+        "image": "http://cdn.chowsangsang.com/solitaire/images/90254r_18kw_dd_070.jpg",
+        "price": 19700,
+        "recommendationTag": false,
+        "extendMetalTypes": [
+          {
+            "templateId": "TEM00001",
+            "componentId": "PCS00001",
+            "catalogItemCode": "90254F-18KW-00",
+            "brandCode": "PR",
+            "productName": "18K白色黃金戒指托",
+            "styleCatgNbr": "90254",
+            "diamondWtRange": "0.3-1.0",
+            "subCollection": "星宇",
+            "image": "http://cdn.chowsangsang.com/solitaire/images/90254r_18kw_dd_070.jpg",
+            "price": 19700,
+            "recommendationTag": false
+          }
+        ]
+      },
+      {
+        "templateId": "TEM00001",
+        "componentId": "PCS00001",
+        "catalogItemCode": "90250F-18KW-00",
+        "brandCode": "PR",
+        "productName": "18K白色黃金戒指托",
+        "styleCatgNbr": "90250",
+        "diamondWtRange": "0.3-1.0",
+        "subCollection": "星宇",
+        "image": "http://cdn.chowsangsang.com/solitaire/images/90250r_18kw_dd_070.jpg",
+        "price": 21000,
+        "recommendationTag": false,
+        "extendMetalTypes": [
+          {
+            "templateId": "TEM00001",
+            "componentId": "PCS00001",
+            "catalogItemCode": "90250F-18KW-00",
+            "brandCode": "PR",
+            "productName": "18K白色黃金戒指托",
+            "styleCatgNbr": "90250",
+            "diamondWtRange": "0.3-1.0",
+            "subCollection": "星宇",
+            "image": "http://cdn.chowsangsang.com/solitaire/images/90250r_18kw_dd_070.jpg",
+            "price": 21000,
+            "recommendationTag": false
+          }
+        ]
+      },
+      {
+        "templateId": "TEM00001",
+        "componentId": "PCS00001",
+        "catalogItemCode": "89790F-18TT-00",
+        "brandCode": "PR",
+        "productName": "18K三色或以上分色黃金戒指托",
+        "styleCatgNbr": "89790",
+        "diamondWtRange": "0.3-1.0",
+        "subCollection": "相融",
+        "image": "http://cdn.chowsangsang.com/solitaire/images/89790r_18tt_dd_070.jpg",
+        "price": 16700,
+        "recommendationTag": false,
+        "extendMetalTypes": [
+          {
+            "templateId": "TEM00001",
+            "componentId": "PCS00001",
+            "catalogItemCode": "89790F-18TT-00",
+            "brandCode": "PR",
+            "productName": "18K三色或以上分色黃金戒指托",
+            "styleCatgNbr": "89790",
+            "diamondWtRange": "0.3-1.0",
+            "subCollection": "相融",
+            "image": "http://cdn.chowsangsang.com/solitaire/images/89790r_18tt_dd_070.jpg",
+            "price": 16700,
+            "recommendationTag": false
+          }
+        ]
+      },
+      {
+        "templateId": "TEM00001",
+        "componentId": "PCS00001",
+        "catalogItemCode": "91290F-18KW-00",
+        "brandCode": "PR",
+        "productName": "18K白色黃金戒指托",
+        "styleCatgNbr": "91290",
+        "diamondWtRange": "0.3-3.0",
+        "subCollection": "同心",
+        "image": "http://cdn.chowsangsang.com/solitaire/images/91290r_18kw_dd_070.jpg",
+        "price": 13800,
+        "recommendationTag": false,
+        "extendMetalTypes": [
+          {
+            "templateId": "TEM00001",
+            "componentId": "PCS00001",
+            "catalogItemCode": "91290F-18KW-00",
+            "brandCode": "PR",
+            "productName": "18K白色黃金戒指托",
+            "styleCatgNbr": "91290",
+            "diamondWtRange": "0.3-3.0",
+            "subCollection": "同心",
+            "image": "http://cdn.chowsangsang.com/solitaire/images/91290r_18kw_dd_070.jpg",
+            "price": 13800,
+            "recommendationTag": false
+          },
+          {
+            "templateId": "TEM00001",
+            "componentId": "PCS00001",
+            "catalogItemCode": "91290F-18WR-00",
+            "brandCode": "PR",
+            "productName": "18K白紅分色黃金戒指托",
+            "styleCatgNbr": "91290",
+            "diamondWtRange": "0.3-3.0",
+            "subCollection": "同心",
+            "image": "http://cdn.chowsangsang.com/solitaire/images/91290r_18wr_dd_070.jpg",
+            "price": 13800,
+            "recommendationTag": true
+          },
+          {
+            "templateId": "TEM00001",
+            "componentId": "PCS00001",
+            "catalogItemCode": "91290F-18KR-00",
+            "brandCode": "PR",
+            "productName": "18K紅色黃金戒指托",
+            "styleCatgNbr": "91290",
+            "diamondWtRange": "0.3-3.0",
+            "subCollection": "同心",
+            "image": "http://cdn.chowsangsang.com/solitaire/images/91290r_18kr_dd_070.jpg",
+            "price": 13800,
+            "recommendationTag": false
+          }
+        ]
+      },
+      {
+        "templateId": "TEM00001",
+        "componentId": "PCS00001",
+        "catalogItemCode": "87585F-18WR-00",
+        "brandCode": "PR",
+        "productName": "18K白紅分色黃金戒指托",
+        "styleCatgNbr": "87585",
+        "diamondWtRange": "0.3-1.0",
+        "subCollection": "伯爵小皇冠",
+        "image": "http://cdn.chowsangsang.com/solitaire/images/87585r_18wr_dd_070.jpg",
+        "price": 23500,
+        "recommendationTag": false,
+        "extendMetalTypes": [
+          {
+            "templateId": "TEM00001",
+            "componentId": "PCS00001",
+            "catalogItemCode": "87585F-18WR-00",
+            "brandCode": "PR",
+            "productName": "18K白紅分色黃金戒指托",
+            "styleCatgNbr": "87585",
+            "diamondWtRange": "0.3-1.0",
+            "subCollection": "伯爵小皇冠",
+            "image": "http://cdn.chowsangsang.com/solitaire/images/87585r_18wr_dd_070.jpg",
+            "price": 23500,
+            "recommendationTag": false
+          }
+        ]
+      },
+      {
+        "templateId": "TEM00001",
+        "componentId": "PCS00001",
+        "catalogItemCode": "35301F-18KW-00",
+        "brandCode": "PR",
+        "productName": "18K白色黃金戒指托",
+        "styleCatgNbr": "35301",
+        "diamondWtRange": "0.3-1.5",
+        "subCollection": "如一",
+        "image": "http://cdn.chowsangsang.com/solitaire/images/35301r_18kw_dd_070.jpg",
+        "price": 11500,
+        "recommendationTag": true,
+        "extendMetalTypes": [
+          {
+            "templateId": "TEM00001",
+            "componentId": "PCS00001",
+            "catalogItemCode": "35301F-18KW-00",
+            "brandCode": "PR",
+            "productName": "18K白色黃金戒指托",
+            "styleCatgNbr": "35301",
+            "diamondWtRange": "0.3-1.5",
+            "subCollection": "如一",
+            "image": "http://cdn.chowsangsang.com/solitaire/images/35301r_18kw_dd_070.jpg",
+            "price": 11500,
+            "recommendationTag": true
+          },
+          {
+            "templateId": "TEM00001",
+            "componentId": "PCS00001",
+            "catalogItemCode": "35301F-18KR-00",
+            "brandCode": "PR",
+            "productName": "18K紅色黃金戒指托",
+            "styleCatgNbr": "35301",
+            "diamondWtRange": "0.3-1.5",
+            "subCollection": "如一",
+            "image": "http://cdn.chowsangsang.com/solitaire/images/35301r_18kr_dd_070.jpg",
+            "price": 11500,
+            "recommendationTag": false
+          }
+        ]
+      },
+      {
+        "templateId": "TEM00001",
+        "componentId": "PCS00001",
+        "catalogItemCode": "39040F-18KW-00",
+        "brandCode": "PR",
+        "productName": "18K白色黃金戒指托",
+        "styleCatgNbr": "39040",
+        "diamondWtRange": "0.3-0.3",
+        "subCollection": "星宇",
+        "image": "http://cdn.chowsangsang.com/solitaire/images/39040r_18kw_dd_030.jpg",
+        "price": 20800,
+        "recommendationTag": false,
+        "extendMetalTypes": [
+          {
+            "templateId": "TEM00001",
+            "componentId": "PCS00001",
+            "catalogItemCode": "39040F-18KW-00",
+            "brandCode": "PR",
+            "productName": "18K白色黃金戒指托",
+            "styleCatgNbr": "39040",
+            "diamondWtRange": "0.3-0.3",
+            "subCollection": "星宇",
+            "image": "http://cdn.chowsangsang.com/solitaire/images/39040r_18kw_dd_030.jpg",
+            "price": 20800,
+            "recommendationTag": false
+          }
+        ]
+      },
+      {
+        "templateId": "TEM00001",
+        "componentId": "PCS00001",
+        "catalogItemCode": "91263F-M950-00",
+        "brandCode": "PR",
+        "productName": "18K黃金及950鉑金戒指托",
+        "styleCatgNbr": "91263",
+        "diamondWtRange": "0.5-0.5",
+        "subCollection": "相融",
+        "image": "http://cdn.chowsangsang.com/solitaire/images/91263r_m950_dd_050.jpg",
+        "price": 38400,
+        "recommendationTag": false,
+        "extendMetalTypes": [
+          {
+            "templateId": "TEM00001",
+            "componentId": "PCS00001",
+            "catalogItemCode": "91263F-M950-00",
+            "brandCode": "PR",
+            "productName": "18K黃金及950鉑金戒指托",
+            "styleCatgNbr": "91263",
+            "diamondWtRange": "0.5-0.5",
+            "subCollection": "相融",
+            "image": "http://cdn.chowsangsang.com/solitaire/images/91263r_m950_dd_050.jpg",
+            "price": 38400,
+            "recommendationTag": false
+          }
+        ]
+      },
+      {
+        "templateId": "TEM00001",
+        "componentId": "PCS00001",
+        "catalogItemCode": "49324F-18KW-00",
+        "brandCode": "PR",
+        "productName": "18K白色黃金戒指托",
+        "styleCatgNbr": "49324",
+        "diamondWtRange": "0.3-1.0",
+        "subCollection": "如一",
+        "image": "http://cdn.chowsangsang.com/solitaire/images/49324r_18kw_dd_070.jpg",
+        "price": 13000,
+        "recommendationTag": false,
+        "extendMetalTypes": [
+          {
+            "templateId": "TEM00001",
+            "componentId": "PCS00001",
+            "catalogItemCode": "49324F-18KW-00",
+            "brandCode": "PR",
+            "productName": "18K白色黃金戒指托",
+            "styleCatgNbr": "49324",
+            "diamondWtRange": "0.3-1.0",
+            "subCollection": "如一",
+            "image": "http://cdn.chowsangsang.com/solitaire/images/49324r_18kw_dd_070.jpg",
+            "price": 13000,
+            "recommendationTag": false
+          },
+          {
+            "templateId": "TEM00001",
+            "componentId": "PCS00001",
+            "catalogItemCode": "49324F-18KR-00",
+            "brandCode": "PR",
+            "productName": "18K紅色黃金戒指托",
+            "styleCatgNbr": "49324",
+            "diamondWtRange": "0.3-1.0",
+            "subCollection": "如一",
+            "image": "http://cdn.chowsangsang.com/solitaire/images/49324r_18kr_dd_070.jpg",
+            "price": 13000,
+            "recommendationTag": false
+          }
+        ]
+      },
+      {
+        "templateId": "TEM00001",
+        "componentId": "PCS00001",
+        "catalogItemCode": "01257F-18KW-00",
+        "brandCode": "PR",
+        "productName": "18K白色黃金戒指托",
+        "styleCatgNbr": "01257",
+        "diamondWtRange": "0.3-3.0",
+        "subCollection": "如一",
+        "image": "http://cdn.chowsangsang.com/solitaire/images/01257r_18kw_dd_070.jpg",
+        "price": 14300,
+        "recommendationTag": false,
+        "extendMetalTypes": [
+          {
+            "templateId": "TEM00001",
+            "componentId": "PCS00001",
+            "catalogItemCode": "01257F-18KW-00",
+            "brandCode": "PR",
+            "productName": "18K白色黃金戒指托",
+            "styleCatgNbr": "01257",
+            "diamondWtRange": "0.3-3.0",
+            "subCollection": "如一",
+            "image": "http://cdn.chowsangsang.com/solitaire/images/01257r_18kw_dd_070.jpg",
+            "price": 14300,
+            "recommendationTag": false
+          },
+          {
+            "templateId": "TEM00001",
+            "componentId": "PCS00001",
+            "catalogItemCode": "01257F-18KR-00",
+            "brandCode": "PR",
+            "productName": "18K紅色黃金戒指托",
+            "styleCatgNbr": "01257",
+            "diamondWtRange": "0.3-3.0",
+            "subCollection": "如一",
+            "image": "http://cdn.chowsangsang.com/solitaire/images/01257r_18kr_dd_070.jpg",
+            "price": 14300,
+            "recommendationTag": false
+          },
+          {
+            "templateId": "TEM00001",
+            "componentId": "PCS00001",
+            "catalogItemCode": "01257F-P900-00",
+            "brandCode": "PR",
+            "productName": "900鉑金戒指托",
+            "styleCatgNbr": "01257",
+            "diamondWtRange": "0.3-3.0",
+            "subCollection": "如一",
+            "image": "http://cdn.chowsangsang.com/solitaire/images/01257r_p900_dd_070.jpg",
+            "price": 16200,
+            "recommendationTag": false
+          }
+        ]
+      },
+      {
+        "templateId": "TEM00001",
+        "componentId": "PCS00001",
+        "catalogItemCode": "85232F-P900-00",
+        "brandCode": "IL",
+        "productName": "900鉑金戒指托",
+        "styleCatgNbr": "85232",
+        "diamondWtRange": "0.3-0.3",
+        "subCollection": "婚嫁系列",
+        "image": "http://cdn.chowsangsang.com/solitaire/images/85232r_p900_dd_030.jpg",
+        "price": 18800,
+        "recommendationTag": false,
+        "extendMetalTypes": [
+          {
+            "templateId": "TEM00001",
+            "componentId": "PCS00001",
+            "catalogItemCode": "85232F-P900-00",
+            "brandCode": "IL",
+            "productName": "900鉑金戒指托",
+            "styleCatgNbr": "85232",
+            "diamondWtRange": "0.3-0.3",
+            "subCollection": "婚嫁系列",
+            "image": "http://cdn.chowsangsang.com/solitaire/images/85232r_p900_dd_030.jpg",
+            "price": 18800,
+            "recommendationTag": false
+          }
+        ]
+      },
+      {
+        "templateId": "TEM00001",
+        "componentId": "PCS00001",
+        "catalogItemCode": "87871F-18KW-00",
+        "brandCode": "PR",
+        "productName": "18K白色黃金戒指托",
+        "styleCatgNbr": "87871",
+        "diamondWtRange": "0.3-1.0",
+        "subCollection": "如一",
+        "image": "http://cdn.chowsangsang.com/solitaire/images/87871r_18kw_dd_070.jpg",
+        "price": 12800,
+        "recommendationTag": false,
+        "extendMetalTypes": [
+          {
+            "templateId": "TEM00001",
+            "componentId": "PCS00001",
+            "catalogItemCode": "87871F-18KW-00",
+            "brandCode": "PR",
+            "productName": "18K白色黃金戒指托",
+            "styleCatgNbr": "87871",
+            "diamondWtRange": "0.3-1.0",
+            "subCollection": "如一",
+            "image": "http://cdn.chowsangsang.com/solitaire/images/87871r_18kw_dd_070.jpg",
+            "price": 12800,
+            "recommendationTag": false
+          },
+          {
+            "templateId": "TEM00001",
+            "componentId": "PCS00001",
+            "catalogItemCode": "87871F-18KR-00",
+            "brandCode": "PR",
+            "productName": "18K紅色黃金戒指托",
+            "styleCatgNbr": "87871",
+            "diamondWtRange": "0.3-1.0",
+            "subCollection": "如一",
+            "image": "http://cdn.chowsangsang.com/solitaire/images/87871r_18kr_dd_070.jpg",
+            "price": 12800,
+            "recommendationTag": false
+          }
+        ]
+      },
+      {
+        "templateId": "TEM00001",
+        "componentId": "PCS00001",
+        "catalogItemCode": "03755F-18KW-00",
+        "brandCode": "PR",
+        "productName": "18K白色黃金戒指托",
+        "styleCatgNbr": "03755",
+        "diamondWtRange": "0.3-3.0",
+        "subCollection": "如一",
+        "image": "http://cdn.chowsangsang.com/solitaire/images/03755r_18kw_dd_070.jpg",
+        "price": 14300,
+        "recommendationTag": false,
+        "extendMetalTypes": [
+          {
+            "templateId": "TEM00001",
+            "componentId": "PCS00001",
+            "catalogItemCode": "03755F-18KW-00",
+            "brandCode": "PR",
+            "productName": "18K白色黃金戒指托",
+            "styleCatgNbr": "03755",
+            "diamondWtRange": "0.3-3.0",
+            "subCollection": "如一",
+            "image": "http://cdn.chowsangsang.com/solitaire/images/03755r_18kw_dd_070.jpg",
+            "price": 14300,
+            "recommendationTag": false
+          },
+          {
+            "templateId": "TEM00001",
+            "componentId": "PCS00001",
+            "catalogItemCode": "03755F-18KR-00",
+            "brandCode": "PR",
+            "productName": "18K紅色黃金戒指托",
+            "styleCatgNbr": "03755",
+            "diamondWtRange": "0.3-3.0",
+            "subCollection": "如一",
+            "image": "http://cdn.chowsangsang.com/solitaire/images/03755r_18kr_dd_070.jpg",
+            "price": 14300,
+            "recommendationTag": false
+          },
+          {
+            "templateId": "TEM00001",
+            "componentId": "PCS00001",
+            "catalogItemCode": "03755F-P900-00",
+            "brandCode": "PR",
+            "productName": "900鉑金戒指托",
+            "styleCatgNbr": "03755",
+            "diamondWtRange": "0.3-3.0",
+            "subCollection": "如一",
+            "image": "http://cdn.chowsangsang.com/solitaire/images/03755r_p900_dd_070.jpg",
+            "price": 16200,
+            "recommendationTag": false
+          }
+        ]
+      },
+      {
+        "templateId": "TEM00001",
+        "componentId": "PCS00001",
+        "catalogItemCode": "91510F-18KW-00",
+        "brandCode": "PR",
+        "productName": "18K白色黃金戒指托",
+        "styleCatgNbr": "91510",
+        "diamondWtRange": "0.3-0.7",
+        "subCollection": "星宇",
+        "image": "http://cdn.chowsangsang.com/solitaire/images/91510r_18kw_dd_070.jpg",
+        "price": 35400,
+        "recommendationTag": false,
+        "extendMetalTypes": [
+          {
+            "templateId": "TEM00001",
+            "componentId": "PCS00001",
+            "catalogItemCode": "91510F-18KW-00",
+            "brandCode": "PR",
+            "productName": "18K白色黃金戒指托",
+            "styleCatgNbr": "91510",
+            "diamondWtRange": "0.3-0.7",
+            "subCollection": "星宇",
+            "image": "http://cdn.chowsangsang.com/solitaire/images/91510r_18kw_dd_070.jpg",
+            "price": 35400,
+            "recommendationTag": false
+          }
+        ]
+      },
+      {
+        "templateId": "TEM00001",
+        "componentId": "PCS00001",
+        "catalogItemCode": "73308F-P900-00",
+        "brandCode": "IL",
+        "productName": "900鉑金戒指托",
+        "styleCatgNbr": "73308",
+        "diamondWtRange": "0.5-1.0",
+        "subCollection": "典雅系列",
+        "image": "http://cdn.chowsangsang.com/solitaire/images/73308r_p900_dd_070.jpg",
+        "price": 28800,
+        "recommendationTag": false,
+        "extendMetalTypes": [
+          {
+            "templateId": "TEM00001",
+            "componentId": "PCS00001",
+            "catalogItemCode": "73308F-P900-00",
+            "brandCode": "IL",
+            "productName": "900鉑金戒指托",
+            "styleCatgNbr": "73308",
+            "diamondWtRange": "0.5-1.0",
+            "subCollection": "典雅系列",
+            "image": "http://cdn.chowsangsang.com/solitaire/images/73308r_p900_dd_070.jpg",
+            "price": 28800,
+            "recommendationTag": false
+          }
+        ]
+      },
+      {
+        "templateId": "TEM00001",
+        "componentId": "PCS00001",
+        "catalogItemCode": "91469F-18KW-00",
+        "brandCode": "PR",
+        "productName": "18K白色黃金戒指托",
+        "styleCatgNbr": "91469",
+        "diamondWtRange": "0.5-0.5",
+        "subCollection": "星宇",
+        "image": "http://cdn.chowsangsang.com/solitaire/images/91469r_18kw_dd_050.jpg",
+        "price": 32700,
+        "recommendationTag": false,
+        "extendMetalTypes": [
+          {
+            "templateId": "TEM00001",
+            "componentId": "PCS00001",
+            "catalogItemCode": "91469F-18KW-00",
+            "brandCode": "PR",
+            "productName": "18K白色黃金戒指托",
+            "styleCatgNbr": "91469",
+            "diamondWtRange": "0.5-0.5",
+            "subCollection": "星宇",
+            "image": "http://cdn.chowsangsang.com/solitaire/images/91469r_18kw_dd_050.jpg",
+            "price": 32700,
+            "recommendationTag": false
+          }
+        ]
+      },
+      {
+        "templateId": "TEM00001",
+        "componentId": "PCS00001",
+        "catalogItemCode": "90247F-18KW-00",
+        "brandCode": "PR",
+        "productName": "18K白色黃金戒指托",
+        "styleCatgNbr": "90247",
+        "diamondWtRange": "0.3-2.0",
+        "subCollection": "如一",
+        "image": "http://cdn.chowsangsang.com/solitaire/images/90247r_18kw_dd_070.jpg",
+        "price": 16500,
+        "recommendationTag": false,
+        "extendMetalTypes": [
+          {
+            "templateId": "TEM00001",
+            "componentId": "PCS00001",
+            "catalogItemCode": "90247F-18KW-00",
+            "brandCode": "PR",
+            "productName": "18K白色黃金戒指托",
+            "styleCatgNbr": "90247",
+            "diamondWtRange": "0.3-2.0",
+            "subCollection": "如一",
+            "image": "http://cdn.chowsangsang.com/solitaire/images/90247r_18kw_dd_070.jpg",
+            "price": 16500,
+            "recommendationTag": false
+          }
+        ]
+      },
+      {
+        "templateId": "TEM00001",
+        "componentId": "PCS00001",
+        "catalogItemCode": "04674F-18KW-00",
+        "brandCode": "PR",
+        "productName": "18K白色黃金戒指托",
+        "styleCatgNbr": "04674",
+        "diamondWtRange": "0.3-2.0",
+        "subCollection": "如一",
+        "image": "http://cdn.chowsangsang.com/solitaire/images/04674r_18kw_dd_070.jpg",
+        "price": 12100,
+        "recommendationTag": false,
+        "extendMetalTypes": [
+          {
+            "templateId": "TEM00001",
+            "componentId": "PCS00001",
+            "catalogItemCode": "04674F-18KW-00",
+            "brandCode": "PR",
+            "productName": "18K白色黃金戒指托",
+            "styleCatgNbr": "04674",
+            "diamondWtRange": "0.3-2.0",
+            "subCollection": "如一",
+            "image": "http://cdn.chowsangsang.com/solitaire/images/04674r_18kw_dd_070.jpg",
+            "price": 12100,
+            "recommendationTag": false
+          },
+          {
+            "templateId": "TEM00001",
+            "componentId": "PCS00001",
+            "catalogItemCode": "04674F-18KR-00",
+            "brandCode": "PR",
+            "productName": "18K紅色黃金戒指托",
+            "styleCatgNbr": "04674",
+            "diamondWtRange": "0.3-2.0",
+            "subCollection": "如一",
+            "image": "http://cdn.chowsangsang.com/solitaire/images/04674r_18kr_dd_070.jpg",
+            "price": 12100,
+            "recommendationTag": false
+          },
+          {
+            "templateId": "TEM00001",
+            "componentId": "PCS00001",
+            "catalogItemCode": "04674F-P900-00",
+            "brandCode": "PR",
+            "productName": "900鉑金戒指托",
+            "styleCatgNbr": "04674",
+            "diamondWtRange": "0.3-2.0",
+            "subCollection": "如一",
+            "image": "http://cdn.chowsangsang.com/solitaire/images/04674r_p900_dd_070.jpg",
+            "price": 13000,
+            "recommendationTag": false
+          }
+        ]
+      },
+      {
+        "templateId": "TEM00001",
+        "componentId": "PCS00001",
+        "catalogItemCode": "80525F-P900-00",
+        "brandCode": "IL",
+        "productName": "900鉑金戒指托",
+        "styleCatgNbr": "80525",
+        "diamondWtRange": "0.3-1.0",
+        "subCollection": "婚嫁系列",
+        "image": "http://cdn.chowsangsang.com/solitaire/images/80525r_p900_dd_030.jpg",
+        "price": 15000,
+        "recommendationTag": false,
+        "extendMetalTypes": [
+          {
+            "templateId": "TEM00001",
+            "componentId": "PCS00001",
+            "catalogItemCode": "80525F-P900-00",
+            "brandCode": "IL",
+            "productName": "900鉑金戒指托",
+            "styleCatgNbr": "80525",
+            "diamondWtRange": "0.3-1.0",
+            "subCollection": "婚嫁系列",
+            "image": "http://cdn.chowsangsang.com/solitaire/images/80525r_p900_dd_030.jpg",
+            "price": 15000,
+            "recommendationTag": false
+          }
+        ]
+      },
+      {
+        "templateId": "TEM00001",
+        "componentId": "PCS00001",
+        "catalogItemCode": "90251F-18KW-00",
+        "brandCode": "PR",
+        "productName": "18K白色黃金戒指托",
+        "styleCatgNbr": "90251",
+        "diamondWtRange": "0.3-1.0",
+        "subCollection": "星宇",
+        "image": "http://cdn.chowsangsang.com/solitaire/images/90251r_18kw_dd_070.jpg",
+        "price": 37000,
+        "recommendationTag": false,
+        "extendMetalTypes": [
+          {
+            "templateId": "TEM00001",
+            "componentId": "PCS00001",
+            "catalogItemCode": "90251F-18KW-00",
+            "brandCode": "PR",
+            "productName": "18K白色黃金戒指托",
+            "styleCatgNbr": "90251",
+            "diamondWtRange": "0.3-1.0",
+            "subCollection": "星宇",
+            "image": "http://cdn.chowsangsang.com/solitaire/images/90251r_18kw_dd_070.jpg",
+            "price": 37000,
+            "recommendationTag": false
+          }
+        ]
+      },
+      {
+        "templateId": "TEM00001",
+        "componentId": "PCS00001",
+        "catalogItemCode": "89791F-18TT-00",
+        "brandCode": "PR",
+        "productName": "18K三色或以上分色黃金戒指托",
+        "styleCatgNbr": "89791",
+        "diamondWtRange": "0.3-1.0",
+        "subCollection": "相融",
+        "image": "http://cdn.chowsangsang.com/solitaire/images/89791r_18tt_dd_070.jpg",
+        "price": 40000,
+        "recommendationTag": false,
+        "extendMetalTypes": [
+          {
+            "templateId": "TEM00001",
+            "componentId": "PCS00001",
+            "catalogItemCode": "89791F-18TT-00",
+            "brandCode": "PR",
+            "productName": "18K三色或以上分色黃金戒指托",
+            "styleCatgNbr": "89791",
+            "diamondWtRange": "0.3-1.0",
+            "subCollection": "相融",
+            "image": "http://cdn.chowsangsang.com/solitaire/images/89791r_18tt_dd_070.jpg",
+            "price": 40000,
+            "recommendationTag": false
+          }
+        ]
+      },
+      {
+        "templateId": "TEM00001",
+        "componentId": "PCS00001",
+        "catalogItemCode": "33680F-18KW-00",
+        "brandCode": "PR",
+        "productName": "18K白色黃金戒指托",
+        "styleCatgNbr": "33680",
+        "diamondWtRange": "0.3-0.7",
+        "subCollection": "如一",
+        "image": "http://cdn.chowsangsang.com/solitaire/images/33680r_18kw_dd_070.jpg",
+        "price": 12500,
+        "recommendationTag": false,
+        "extendMetalTypes": [
+          {
+            "templateId": "TEM00001",
+            "componentId": "PCS00001",
+            "catalogItemCode": "33680F-18KW-00",
+            "brandCode": "PR",
+            "productName": "18K白色黃金戒指托",
+            "styleCatgNbr": "33680",
+            "diamondWtRange": "0.3-0.7",
+            "subCollection": "如一",
+            "image": "http://cdn.chowsangsang.com/solitaire/images/33680r_18kw_dd_070.jpg",
+            "price": 12500,
+            "recommendationTag": false
+          },
+          {
+            "templateId": "TEM00001",
+            "componentId": "PCS00001",
+            "catalogItemCode": "33680F-18KR-00",
+            "brandCode": "PR",
+            "productName": "18K紅色黃金戒指托",
+            "styleCatgNbr": "33680",
+            "diamondWtRange": "0.3-0.7",
+            "subCollection": "如一",
+            "image": "http://cdn.chowsangsang.com/solitaire/images/33680r_18kr_dd_070.jpg",
+            "price": 12500,
+            "recommendationTag": false
+          },
+          {
+            "templateId": "TEM00001",
+            "componentId": "PCS00001",
+            "catalogItemCode": "33680F-P900-00",
+            "brandCode": "PR",
+            "productName": "900鉑金戒指托",
+            "styleCatgNbr": "33680",
+            "diamondWtRange": "0.3-0.7",
+            "subCollection": "如一",
+            "image": "http://cdn.chowsangsang.com/solitaire/images/33680r_p900_dd_070.jpg",
+            "price": 12500,
+            "recommendationTag": false
+          }
+        ]
+      },
+      {
+        "templateId": "TEM00001",
+        "componentId": "PCS00001",
+        "catalogItemCode": "79427F-P900-00",
+        "brandCode": "IL",
+        "productName": "900鉑金戒指托",
+        "styleCatgNbr": "79427",
+        "diamondWtRange": "0.3-1.0",
+        "subCollection": "婚嫁系列",
+        "image": "http://cdn.chowsangsang.com/solitaire/images/79427r_p900_dd_070.jpg",
+        "price": 17300,
+        "recommendationTag": false,
+        "extendMetalTypes": [
+          {
+            "templateId": "TEM00001",
+            "componentId": "PCS00001",
+            "catalogItemCode": "79427F-P900-00",
+            "brandCode": "IL",
+            "productName": "900鉑金戒指托",
+            "styleCatgNbr": "79427",
+            "diamondWtRange": "0.3-1.0",
+            "subCollection": "婚嫁系列",
+            "image": "http://cdn.chowsangsang.com/solitaire/images/79427r_p900_dd_070.jpg",
+            "price": 17300,
+            "recommendationTag": false
+          }
+        ]
+      },
+      {
+        "templateId": "TEM00001",
+        "componentId": "PCS00001",
+        "catalogItemCode": "87758F-P900-00",
+        "brandCode": "IL",
+        "productName": "900鉑金戒指托",
+        "styleCatgNbr": "87758",
+        "diamondWtRange": "0.5-1.5",
+        "subCollection": "婚嫁系列",
+        "image": "http://cdn.chowsangsang.com/solitaire/images/87758r_p900_dd_070.jpg",
+        "price": 21700,
+        "recommendationTag": false,
+        "extendMetalTypes": [
+          {
+            "templateId": "TEM00001",
+            "componentId": "PCS00001",
+            "catalogItemCode": "87758F-P900-00",
+            "brandCode": "IL",
+            "productName": "900鉑金戒指托",
+            "styleCatgNbr": "87758",
+            "diamondWtRange": "0.5-1.5",
+            "subCollection": "婚嫁系列",
+            "image": "http://cdn.chowsangsang.com/solitaire/images/87758r_p900_dd_070.jpg",
+            "price": 21700,
+            "recommendationTag": false
+          }
+        ]
+      },
+      {
+        "templateId": "TEM00001",
+        "componentId": "PCS00001",
+        "catalogItemCode": "87867F-18KW-00",
+        "brandCode": "PR",
+        "productName": "18K白色黃金戒指托",
+        "styleCatgNbr": "87867",
+        "diamondWtRange": "0.3-1.0",
+        "subCollection": "同心",
+        "image": "http://cdn.chowsangsang.com/solitaire/images/87867r_18kw_dd_070.jpg",
+        "price": 15300,
+        "recommendationTag": false,
+        "extendMetalTypes": [
+          {
+            "templateId": "TEM00001",
+            "componentId": "PCS00001",
+            "catalogItemCode": "87867F-18KW-00",
+            "brandCode": "PR",
+            "productName": "18K白色黃金戒指托",
+            "styleCatgNbr": "87867",
+            "diamondWtRange": "0.3-1.0",
+            "subCollection": "同心",
+            "image": "http://cdn.chowsangsang.com/solitaire/images/87867r_18kw_dd_070.jpg",
+            "price": 15300,
+            "recommendationTag": false
+          }
+        ]
+      },
+      {
+        "templateId": "TEM00001",
+        "componentId": "PCS00001",
+        "catalogItemCode": "91264F-18YR-00",
+        "brandCode": "PR",
+        "productName": "18K黃紅分色黃金戒指托",
+        "styleCatgNbr": "91264",
+        "diamondWtRange": "0.5-0.5",
+        "subCollection": "相融",
+        "image": "http://cdn.chowsangsang.com/solitaire/images/91264r_18yr_dd_050.jpg",
+        "price": 41400,
+        "recommendationTag": false,
+        "extendMetalTypes": [
+          {
+            "templateId": "TEM00001",
+            "componentId": "PCS00001",
+            "catalogItemCode": "91264F-18YR-00",
+            "brandCode": "PR",
+            "productName": "18K黃紅分色黃金戒指托",
+            "styleCatgNbr": "91264",
+            "diamondWtRange": "0.5-0.5",
+            "subCollection": "相融",
+            "image": "http://cdn.chowsangsang.com/solitaire/images/91264r_18yr_dd_050.jpg",
+            "price": 41400,
+            "recommendationTag": false
+          }
+        ]
+      },
+      {
+        "templateId": "TEM00001",
+        "componentId": "PCS00001",
+        "catalogItemCode": "80530F-P900-00",
+        "brandCode": "IL",
+        "productName": "900鉑金戒指托",
+        "styleCatgNbr": "80530",
+        "diamondWtRange": "0.3-1.0",
+        "subCollection": "婚嫁系列",
+        "image": "http://cdn.chowsangsang.com/solitaire/images/80530r_p900_dd_070.jpg",
+        "price": 15300,
+        "recommendationTag": false,
+        "extendMetalTypes": [
+          {
+            "templateId": "TEM00001",
+            "componentId": "PCS00001",
+            "catalogItemCode": "80530F-P900-00",
+            "brandCode": "IL",
+            "productName": "900鉑金戒指托",
+            "styleCatgNbr": "80530",
+            "diamondWtRange": "0.3-1.0",
+            "subCollection": "婚嫁系列",
+            "image": "http://cdn.chowsangsang.com/solitaire/images/80530r_p900_dd_070.jpg",
+            "price": 15300,
+            "recommendationTag": false
+          }
+        ]
+      },
+      {
+        "templateId": "TEM00001",
+        "componentId": "PCS00001",
+        "catalogItemCode": "91474F-18KW-00",
+        "brandCode": "PR",
+        "productName": "18K白色黃金戒指托",
+        "styleCatgNbr": "91474",
+        "diamondWtRange": "0.5-0.5",
+        "subCollection": "星宇",
+        "image": "http://cdn.chowsangsang.com/solitaire/images/91474r_18kw_dd_050.jpg",
+        "price": 26600,
+        "recommendationTag": false,
+        "extendMetalTypes": [
+          {
+            "templateId": "TEM00001",
+            "componentId": "PCS00001",
+            "catalogItemCode": "91474F-18KW-00",
+            "brandCode": "PR",
+            "productName": "18K白色黃金戒指托",
+            "styleCatgNbr": "91474",
+            "diamondWtRange": "0.5-0.5",
+            "subCollection": "星宇",
+            "image": "http://cdn.chowsangsang.com/solitaire/images/91474r_18kw_dd_050.jpg",
+            "price": 26600,
+            "recommendationTag": false
+          }
+        ]
+      },
+      {
+        "templateId": "TEM00001",
+        "componentId": "PCS00001",
+        "catalogItemCode": "03752F-18KW-00",
+        "brandCode": "PR",
+        "productName": "18K白色黃金戒指托",
+        "styleCatgNbr": "03752",
+        "diamondWtRange": "0.3-3.0",
+        "subCollection": "如一",
+        "image": "http://cdn.chowsangsang.com/solitaire/images/03752r_18kw_dd_070.jpg",
+        "price": 14300,
+        "recommendationTag": false,
+        "extendMetalTypes": [
+          {
+            "templateId": "TEM00001",
+            "componentId": "PCS00001",
+            "catalogItemCode": "03752F-18KW-00",
+            "brandCode": "PR",
+            "productName": "18K白色黃金戒指托",
+            "styleCatgNbr": "03752",
+            "diamondWtRange": "0.3-3.0",
+            "subCollection": "如一",
+            "image": "http://cdn.chowsangsang.com/solitaire/images/03752r_18kw_dd_070.jpg",
+            "price": 14300,
+            "recommendationTag": false
+          },
+          {
+            "templateId": "TEM00001",
+            "componentId": "PCS00001",
+            "catalogItemCode": "03752F-18KR-00",
+            "brandCode": "PR",
+            "productName": "18K紅色黃金戒指托",
+            "styleCatgNbr": "03752",
+            "diamondWtRange": "0.3-3.0",
+            "subCollection": "如一",
+            "image": "http://cdn.chowsangsang.com/solitaire/images/03752r_18kr_dd_070.jpg",
+            "price": 14300,
+            "recommendationTag": false
+          },
+          {
+            "templateId": "TEM00001",
+            "componentId": "PCS00001",
+            "catalogItemCode": "03752F-P900-00",
+            "brandCode": "PR",
+            "productName": "900鉑金戒指托",
+            "styleCatgNbr": "03752",
+            "diamondWtRange": "0.3-3.0",
+            "subCollection": "如一",
+            "image": "http://cdn.chowsangsang.com/solitaire/images/03752r_p900_dd_070.jpg",
+            "price": 16200,
+            "recommendationTag": false
+          }
+        ]
+      },
+      {
+        "templateId": "TEM00001",
+        "componentId": "PCS00001",
+        "catalogItemCode": "73309F-P900-00",
+        "brandCode": "IL",
+        "productName": "900鉑金戒指托",
+        "styleCatgNbr": "73309",
+        "diamondWtRange": "0.5-1.0",
+        "subCollection": "典雅系列",
+        "image": "http://cdn.chowsangsang.com/solitaire/images/73309r_p900_dd_070.jpg",
+        "price": 37600,
+        "recommendationTag": false,
+        "extendMetalTypes": [
+          {
+            "templateId": "TEM00001",
+            "componentId": "PCS00001",
+            "catalogItemCode": "73309F-P900-00",
+            "brandCode": "IL",
+            "productName": "900鉑金戒指托",
+            "styleCatgNbr": "73309",
+            "diamondWtRange": "0.5-1.0",
+            "subCollection": "典雅系列",
+            "image": "http://cdn.chowsangsang.com/solitaire/images/73309r_p900_dd_070.jpg",
+            "price": 37600,
+            "recommendationTag": false
+          }
+        ]
+      },
+      {
+        "templateId": "TEM00001",
+        "componentId": "PCS00001",
+        "catalogItemCode": "49319F-P900-00",
+        "brandCode": "IL",
+        "productName": "900鉑金戒指托",
+        "styleCatgNbr": "49319",
+        "diamondWtRange": "0.3-1.0",
+        "subCollection": "婚嫁系列",
+        "image": "http://cdn.chowsangsang.com/solitaire/images/49319r_p900_dd_070.jpg",
+        "price": 14000,
+        "recommendationTag": false,
+        "extendMetalTypes": [
+          {
+            "templateId": "TEM00001",
+            "componentId": "PCS00001",
+            "catalogItemCode": "49319F-P900-00",
+            "brandCode": "IL",
+            "productName": "900鉑金戒指托",
+            "styleCatgNbr": "49319",
+            "diamondWtRange": "0.3-1.0",
+            "subCollection": "婚嫁系列",
+            "image": "http://cdn.chowsangsang.com/solitaire/images/49319r_p900_dd_070.jpg",
+            "price": 14000,
+            "recommendationTag": false
+          }
+        ]
+      },
+      {
+        "templateId": "TEM00001",
+        "componentId": "PCS00001",
+        "catalogItemCode": "90248F-18KW-00",
+        "brandCode": "PR",
+        "productName": "18K白色黃金戒指托",
+        "styleCatgNbr": "90248",
+        "diamondWtRange": "0.3-1.0",
+        "subCollection": "星宇",
+        "image": "http://cdn.chowsangsang.com/solitaire/images/90248r_18kw_dd_070.jpg",
+        "price": 21900,
+        "recommendationTag": false,
+        "extendMetalTypes": [
+          {
+            "templateId": "TEM00001",
+            "componentId": "PCS00001",
+            "catalogItemCode": "90248F-18KW-00",
+            "brandCode": "PR",
+            "productName": "18K白色黃金戒指托",
+            "styleCatgNbr": "90248",
+            "diamondWtRange": "0.3-1.0",
+            "subCollection": "星宇",
+            "image": "http://cdn.chowsangsang.com/solitaire/images/90248r_18kw_dd_070.jpg",
+            "price": 21900,
+            "recommendationTag": false
+          }
+        ]
+      },
+      {
+        "templateId": "TEM00001",
+        "componentId": "PCS00001",
+        "catalogItemCode": "80526F-P900-00",
+        "brandCode": "IL",
+        "productName": "900鉑金戒指托",
+        "styleCatgNbr": "80526",
+        "diamondWtRange": "0.3-1.0",
+        "subCollection": "婚嫁系列",
+        "image": "http://cdn.chowsangsang.com/solitaire/images/80526r_p900_dd_070.jpg",
+        "price": 20800,
+        "recommendationTag": false,
+        "extendMetalTypes": [
+          {
+            "templateId": "TEM00001",
+            "componentId": "PCS00001",
+            "catalogItemCode": "80526F-P900-00",
+            "brandCode": "IL",
+            "productName": "900鉑金戒指托",
+            "styleCatgNbr": "80526",
+            "diamondWtRange": "0.3-1.0",
+            "subCollection": "婚嫁系列",
+            "image": "http://cdn.chowsangsang.com/solitaire/images/80526r_p900_dd_070.jpg",
+            "price": 20800,
+            "recommendationTag": false
+          }
+        ]
+      },
+      {
+        "templateId": "TEM00001",
+        "componentId": "PCS00001",
+        "catalogItemCode": "73337F-P900-00",
+        "brandCode": "IL",
+        "productName": "900鉑金戒指托",
+        "styleCatgNbr": "73337",
+        "diamondWtRange": "0.7-1.0",
+        "subCollection": "典雅系列",
+        "image": "http://cdn.chowsangsang.com/solitaire/images/73337r_p900_dd_070.jpg",
+        "price": 28400,
+        "recommendationTag": false,
+        "extendMetalTypes": [
+          {
+            "templateId": "TEM00001",
+            "componentId": "PCS00001",
+            "catalogItemCode": "73337F-P900-00",
+            "brandCode": "IL",
+            "productName": "900鉑金戒指托",
+            "styleCatgNbr": "73337",
+            "diamondWtRange": "0.7-1.0",
+            "subCollection": "典雅系列",
+            "image": "http://cdn.chowsangsang.com/solitaire/images/73337r_p900_dd_070.jpg",
+            "price": 28400,
+            "recommendationTag": false
+          }
+        ]
+      },
+      {
+        "templateId": "TEM00001",
+        "componentId": "PCS00001",
+        "catalogItemCode": "79480F-P900-00",
+        "brandCode": "IL",
+        "productName": "900鉑金戒指托",
+        "styleCatgNbr": "79480",
+        "diamondWtRange": "0.3-1.0",
+        "subCollection": "典雅系列",
+        "image": "http://cdn.chowsangsang.com/solitaire/images/79480r_p900_dd_070.jpg",
+        "price": 54000,
+        "recommendationTag": false,
+        "extendMetalTypes": [
+          {
+            "templateId": "TEM00001",
+            "componentId": "PCS00001",
+            "catalogItemCode": "79480F-P900-00",
+            "brandCode": "IL",
+            "productName": "900鉑金戒指托",
+            "styleCatgNbr": "79480",
+            "diamondWtRange": "0.3-1.0",
+            "subCollection": "典雅系列",
+            "image": "http://cdn.chowsangsang.com/solitaire/images/79480r_p900_dd_070.jpg",
+            "price": 54000,
+            "recommendationTag": false
+          }
+        ]
+      },
+      {
+        "templateId": "TEM00001",
+        "componentId": "PCS00001",
+        "catalogItemCode": "90252F-18KW-00",
+        "brandCode": "PR",
+        "productName": "18K白色黃金戒指托",
+        "styleCatgNbr": "90252",
+        "diamondWtRange": "0.3-2.0",
+        "subCollection": "星宇",
+        "image": "http://cdn.chowsangsang.com/solitaire/images/90252r_18kw_dd_070.jpg",
+        "price": 18200,
+        "recommendationTag": false,
+        "extendMetalTypes": [
+          {
+            "templateId": "TEM00001",
+            "componentId": "PCS00001",
+            "catalogItemCode": "90252F-18KW-00",
+            "brandCode": "PR",
+            "productName": "18K白色黃金戒指托",
+            "styleCatgNbr": "90252",
+            "diamondWtRange": "0.3-2.0",
+            "subCollection": "星宇",
+            "image": "http://cdn.chowsangsang.com/solitaire/images/90252r_18kw_dd_070.jpg",
+            "price": 18200,
+            "recommendationTag": false
+          }
+        ]
+      },
+      {
+        "templateId": "TEM00001",
+        "componentId": "PCS00001",
+        "catalogItemCode": "79428F-P900-00",
+        "brandCode": "IL",
+        "productName": "900鉑金戒指托",
+        "styleCatgNbr": "79428",
+        "diamondWtRange": "0.3-1.0",
+        "subCollection": "婚嫁系列",
+        "image": "http://cdn.chowsangsang.com/solitaire/images/79428r_p900_dd_070.jpg",
+        "price": 17300,
+        "recommendationTag": false,
+        "extendMetalTypes": [
+          {
+            "templateId": "TEM00001",
+            "componentId": "PCS00001",
+            "catalogItemCode": "79428F-P900-00",
+            "brandCode": "IL",
+            "productName": "900鉑金戒指托",
+            "styleCatgNbr": "79428",
+            "diamondWtRange": "0.3-1.0",
+            "subCollection": "婚嫁系列",
+            "image": "http://cdn.chowsangsang.com/solitaire/images/79428r_p900_dd_070.jpg",
+            "price": 17300,
+            "recommendationTag": false
+          }
+        ]
+      },
+      {
+        "templateId": "TEM00001",
+        "componentId": "PCS00001",
+        "catalogItemCode": "85920F-P900-00",
+        "brandCode": "IL",
+        "productName": "900鉑金戒指托",
+        "styleCatgNbr": "85920",
+        "diamondWtRange": "0.3-0.3",
+        "subCollection": "婚嫁系列",
+        "image": "http://cdn.chowsangsang.com/solitaire/images/85920r_p900_dd_030.jpg",
+        "price": 19000,
+        "recommendationTag": false,
+        "extendMetalTypes": [
+          {
+            "templateId": "TEM00001",
+            "componentId": "PCS00001",
+            "catalogItemCode": "85920F-P900-00",
+            "brandCode": "IL",
+            "productName": "900鉑金戒指托",
+            "styleCatgNbr": "85920",
+            "diamondWtRange": "0.3-0.3",
+            "subCollection": "婚嫁系列",
+            "image": "http://cdn.chowsangsang.com/solitaire/images/85920r_p900_dd_030.jpg",
+            "price": 19000,
+            "recommendationTag": false
+          }
+        ]
+      },
+      {
+        "templateId": "TEM00001",
+        "componentId": "PCS00001",
+        "catalogItemCode": "87583F-18WR-00",
+        "brandCode": "PR",
+        "productName": "18K白紅分色黃金戒指托",
+        "styleCatgNbr": "87583",
+        "diamondWtRange": "0.3-1.0",
+        "subCollection": "伯爵小皇冠",
+        "image": "http://cdn.chowsangsang.com/solitaire/images/87583r_18wr_dd_070.jpg",
+        "price": 22100,
+        "recommendationTag": false,
+        "extendMetalTypes": [
+          {
+            "templateId": "TEM00001",
+            "componentId": "PCS00001",
+            "catalogItemCode": "87583F-18WR-00",
+            "brandCode": "PR",
+            "productName": "18K白紅分色黃金戒指托",
+            "styleCatgNbr": "87583",
+            "diamondWtRange": "0.3-1.0",
+            "subCollection": "伯爵小皇冠",
+            "image": "http://cdn.chowsangsang.com/solitaire/images/87583r_18wr_dd_070.jpg",
+            "price": 22100,
+            "recommendationTag": false
+          }
+        ]
+      },
+      {
+        "templateId": "TEM00001",
+        "componentId": "PCS00001",
+        "catalogItemCode": "87575F-P900-00",
+        "brandCode": "IL",
+        "productName": "900鉑金戒指托",
+        "styleCatgNbr": "87575",
+        "diamondWtRange": "0.5-2.0",
+        "subCollection": "婚嫁系列",
+        "image": "http://cdn.chowsangsang.com/solitaire/images/87575r_p900_dd_050.jpg",
+        "price": 41200,
+        "recommendationTag": false,
+        "extendMetalTypes": [
+          {
+            "templateId": "TEM00001",
+            "componentId": "PCS00001",
+            "catalogItemCode": "87575F-P900-00",
+            "brandCode": "IL",
+            "productName": "900鉑金戒指托",
+            "styleCatgNbr": "87575",
+            "diamondWtRange": "0.5-2.0",
+            "subCollection": "婚嫁系列",
+            "image": "http://cdn.chowsangsang.com/solitaire/images/87575r_p900_dd_050.jpg",
+            "price": 41200,
+            "recommendationTag": false
+          }
+        ]
+      },
+      {
+        "templateId": "TEM00001",
+        "componentId": "PCS00001",
+        "catalogItemCode": "91470F-18KW-00",
+        "brandCode": "PR",
+        "productName": "18K白色黃金戒指托",
+        "styleCatgNbr": "91470",
+        "diamondWtRange": "0.5-0.5",
+        "subCollection": "伯爵小皇冠",
+        "image": "http://cdn.chowsangsang.com/solitaire/images/91470r_18kw_dd_050.jpg",
+        "price": 24000,
+        "recommendationTag": false,
+        "extendMetalTypes": [
+          {
+            "templateId": "TEM00001",
+            "componentId": "PCS00001",
+            "catalogItemCode": "91470F-18KW-00",
+            "brandCode": "PR",
+            "productName": "18K白色黃金戒指托",
+            "styleCatgNbr": "91470",
+            "diamondWtRange": "0.5-0.5",
+            "subCollection": "伯爵小皇冠",
+            "image": "http://cdn.chowsangsang.com/solitaire/images/91470r_18kw_dd_050.jpg",
+            "price": 24000,
+            "recommendationTag": false
+          }
+        ]
+      }
+    ]
+  }
 }

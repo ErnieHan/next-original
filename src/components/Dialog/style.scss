@@ -1,0 +1,41 @@
+.solitaire-dialog-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.5);
+  pointer-events: none;
+  opacity: 0;
+  transition: all 500ms ease-in-out;
+
+  &.solitaire-dialog-backdrop--active {
+    pointer-events: initial;
+    opacity: 1;
+  }
+}
+
+.solitaire-dialog-wrap {
+  position: relative;
+  padding: 30px;
+  width: 1024px;
+  min-height: 200px;
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.08) 0 3px 15px 5px;
+
+  .close-btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 20px;
+    height: 20px;
+    background-color: #111;
+    z-index: 10;
+    cursor: pointer;
+  }
+}

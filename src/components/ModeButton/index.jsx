@@ -1,6 +1,6 @@
 import React from 'react'
 
-function SolitaireModeButton({ item, handleMode }) {
+function ModeButton({ item, handleMode }) {
   const { name, image, type, mode } = item
   function handleClick() {
     handleMode(mode, type)
@@ -22,4 +22,4 @@ function SolitaireModeButton({ item, handleMode }) {
   )
 }
 
-export default SolitaireModeButton
+export default ModeButton
