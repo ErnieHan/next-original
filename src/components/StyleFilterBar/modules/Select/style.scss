@@ -4,6 +4,12 @@
   justify-content: flex-start;
   margin-bottom: 12px;
 
+  &.style-filter-select--disable {
+    opacity: 0.35;
+    cursor: default;
+    pointer-events: none;
+  }
+
   .sfs-title {
     width: 65px;
     font-size: 13px;

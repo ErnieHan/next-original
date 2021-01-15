@@ -2,18 +2,33 @@
   display: flex;
   padding: 0 35px;
 
-  .style-left-wrap {
+  > .style-left-wrap {
     padding: 0 15px;
     width: 35%;
   }
 
-  .style-right-wrap {
+  > .style-right-wrap {
     width: 65%;
 
     .style-cards-wrap {
       position: relative;
       display: flex;
       flex-wrap: wrap;
+    }
+  }
+}
+
+@media (max-width: 991px) {
+  .solitaire-style {
+    flex-wrap: wrap;
+
+    > .style-left-wrap {
+      padding: 0;
+      width: 100%;
+    }
+
+    > .style-right-wrap {
+      width: 100%;
     }
   }
 }

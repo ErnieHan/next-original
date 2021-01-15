@@ -4,15 +4,17 @@ import { useSelector } from 'react-redux'
 // components
 import MetaHead from '../src/components/MetaHead'
 import Breadcrumbs from '../src/components/Breadcrumbs'
+import Dialog from '../src/components/Dialog'
 // containers
 import Home from '../src/containers/solitaire/Home'
 import Landing from '../src/containers/solitaire/Landing'
 import Style from '../src/containers/solitaire/Style'
 import Diamond from '../src/containers/solitaire/Diamond'
-import Dialog from '../src/components/Dialog'
+import Loading from '../src/containers/solitaire/Loading'
 
 function Solitaire() {
   const activePage = useSelector(state => state.set.activePage)
+  const isLoading = useSelector(state => state.set.isLoading)
 
   // 共6頁 home/landing/style/diamond/finish/tryon
   const pages = [
@@ -42,6 +44,7 @@ function Solitaire() {
           ))}
         </div>
       </main>
+      <Loading active={isLoading} />
     </React.Fragment>
   )
 }

@@ -1,0 +1,46 @@
+.diamond-strip {
+  transform: scale(1);
+  position: relative;
+  cursor: pointer;
+
+  .td-value {
+    padding: 10px 5px;
+
+    .td-value-name {
+      position: relative;
+      margin-bottom: 15px;
+      font-size: 12px;
+      text-align: center;
+    }
+
+    .cert-link {
+      border-bottom: 1px solid #111;
+
+      &:hover {
+        opacity: 0.75;
+      }
+    }
+
+    .diamond-shape-img {
+      max-width: 24px;
+    }
+
+    .diamond-brand-img {
+      max-width: 90px;
+    }
+
+    &:first-child {
+      &::before {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: calc(100% - 15px);
+        background-color: #fff;
+        border-radius: 20px;
+        box-shadow: rgba(0, 0, 0, 0.05) 0 3px 5px 2px;
+        content: '';
+      }
+    }
+  }
+}

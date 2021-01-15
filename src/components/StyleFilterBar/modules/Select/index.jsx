@@ -17,7 +17,9 @@ function Select({ data, active, handleChange }) {
   }
 
   function handleToggle() {
-    setShow(!show)
+    if (!data.disable) {
+      setShow(!show)
+    }
   }
 
   function handleOption(item) {
@@ -28,7 +30,7 @@ function Select({ data, active, handleChange }) {
   }
 
   return (
-    <div className="style-filter-select">
+    <div className={`style-filter-select ${data.disable ? 'style-filter-select--disable' : ''}`}>
       <div className="sfs-title">{data.title}</div>
       <div className="sfs-wrap">
         <div className="sfs-selection" onClick={handleToggle}>

@@ -39,3 +39,27 @@ export const setActivePage = page => {
 export const setStyleParams = params => {
   return { type: actionTypes.SET_STYLE_PARAMS, params }
 }
+
+export const setShowStyleDialog = bool => {
+  return { type: actionTypes.SET_SHOW_STYLE_DIALOG, bool }
+}
+
+export const setShowDiamondDialog = bool => {
+  return { type: actionTypes.SET_SHOW_DIAMOND_DIALOG, bool }
+}
+
+export const setStyleInfo = data => {
+  return { type: actionTypes.SET_STYLE_INFO, data }
+}
+
+export const setDiamondInfo = data => {
+  return { type: actionTypes.SET_DIAMOND_INFO, data }
+}
+
+export const setActiveStyle = data => {
+  return { type: actionTypes.SET_ACTIVE_STYLE, data }
+}
+
+export const setActiveDiamond = data => {
+  return { type: actionTypes.SET_ACTIVE_DIAMOND, data }
+}

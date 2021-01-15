@@ -161,10 +161,11 @@ img {
 }
 
 button {
-  letter-spacing: 1.15px;
   font-family: inherit;
+  font-weight: 300;
   border: 0;
   border-radius: 0;
   outline: 0;
+  letter-spacing: 1.15px;
   cursor: pointer;
 }

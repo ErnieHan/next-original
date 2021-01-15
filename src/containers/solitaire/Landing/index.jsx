@@ -1,13 +1,13 @@
 import React from 'react'
 // redux
 import { useDispatch, useSelector } from 'react-redux'
-import { getStyleList } from '../../../store/actions/get'
+import { getStyleList, getDiamondList } from '../../../store/actions/get'
 import { setActivePage } from '../../../store/actions/set'
+import { initState } from '../../../store/reducers/set'
 // components
 import LandingCard from '../../../components/LandingCard'
 // functions
 import isArray from '../../../functions/isArray'
-import { initState } from '../../../store/reducers/set'
 
 function Landing() {
   const activeMode = useSelector(state => state.set.activeMode)
@@ -53,7 +53,8 @@ function Landing() {
   }
 
   function handleDiamond() {
-    dispatch(setActivePage('diamond'))
+    const obj = {}
+    dispatch(getDiamondList(obj, activeMode))
   }
 
   return (

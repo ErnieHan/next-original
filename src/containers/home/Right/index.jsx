@@ -1,8 +1,10 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { useSelector, useDispatch } from 'react-redux'
 import Tag from '../../../components/Tag'
 
 function Right() {
+  useEffect(() => {}, [])
+
   const selection = useSelector(state => state.selection)
   const filter = useSelector(state => state.filter)
   const menu = useSelector(state => state.update.menu)

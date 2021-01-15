@@ -1,0 +1,38 @@
+.diamonds-table {
+  width: 100%;
+
+  .thead-wrap {
+    min-height: 60px;
+  }
+
+  .th-title {
+    padding: 10px;
+
+    .th-title-name {
+      position: relative;
+      margin-bottom: 15px;
+      font-weight: 300;
+      color: #dda1a9;
+    }
+
+    &.sorting {
+      cursor: pointer;
+    }
+
+    .sorting-arrow {
+      position: absolute;
+      bottom: -12px;
+      left: 50%;
+      display: block;
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-width: 6px 4px 0;
+      border-color: transparent;
+      border-top-color: #dda1a9;
+      transform: translate(-50%, 0);
+    }
+  }
+
+  
+}

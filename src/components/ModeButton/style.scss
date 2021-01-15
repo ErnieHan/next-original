@@ -7,6 +7,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    overflow: hidden;
     padding: 0;
     width: 100%;
     background: #fff;
@@ -45,5 +46,28 @@
         }
       }
     }
+  }
+}
+
+@media (max-width: 991px) {
+  .mode-button-wrap {
+    padding: 0 8px;
+
+    .mode-button-body {
+      .name-wrap {
+        .name {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .mode-button-wrap {
+    margin-bottom: 20px;
+    padding: 0;
+    width: 100%;
+    max-width: 350px;
   }
 }

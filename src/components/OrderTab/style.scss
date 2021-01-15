@@ -1,0 +1,52 @@
+.oder-tab-wrap {
+  position: relative;
+  display: flex;
+  margin-bottom: 12px;
+
+  &::before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 1px;
+    height: 50%;
+    background-color: #dda1a9;
+    content: '';
+    transform: translate(-50%, -50%);
+  }
+
+  .tab-option {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 4px;
+    width: 50%;
+    font-size: 15px;
+    color: #dda1a9;
+    cursor: default;
+    order: 1;
+
+    &:not(.tab-option--active) {
+      opacity: 0.5;
+      order: 2;
+      cursor: pointer;
+    }
+
+    .tab-number {
+      display: inline-block;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-right: 5px;
+      width: 20px;
+      height: 20px;
+      color: #fff;
+      background-color: #dda1a9;
+      border-radius: 50%;
+    }
+
+    .tab-tick {
+      margin-left: 6px;
+      width: 15px;
+    }
+  }
+}

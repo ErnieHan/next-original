@@ -8,6 +8,12 @@ export const initState = {
   searchText: '',
   activeMode: null,
   activePage: 'home',
+  activeStyle: null,
+  activeDiamond: null,
+  showStyleDialog: false,
+  showDiamondDialog: false,
+  styleInfo: null,
+  diamondInfo: null,
   styleParams: {
     brandCode: 'default',
     goldTypeCode: 'default',
@@ -19,6 +25,9 @@ export const initState = {
     minPrice: 'default',
     maxPrice: 'default',
     earringType: 'default'
+  },
+  diamondParams: {
+    isPair: 'default'
   }
 }
 
@@ -74,6 +83,42 @@ const set = (state = initState, action) => {
           ...state.styleParams,
           ...action.params
         }
+      }
+
+    case actionTypes.SET_SHOW_STYLE_DIALOG:
+      return {
+        ...state,
+        showStyleDialog: action.bool
+      }
+
+    case actionTypes.SET_SHOW_DIAMOND_DIALOG:
+      return {
+        ...state,
+        showDiamondDialog: action.bool
+      }
+
+    case actionTypes.SET_STYLE_INFO:
+      return {
+        ...state,
+        styleInfo: action.data
+      }
+
+    case actionTypes.SET_DIAMOND_INFO:
+      return {
+        ...state,
+        diamondInfo: action.data
+      }
+
+    case actionTypes.SET_ACTIVE_STYLE:
+      return {
+        ...state,
+        activeStyle: action.data
+      }
+
+    case actionTypes.SET_ACTIVE_DIAMOND:
+      return {
+        ...state,
+        activeDiamond: action.data
       }
 
     default:

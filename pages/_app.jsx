@@ -9,9 +9,13 @@ import '../src/styles/prism.scss'
 import '../src/styles/solitaire.scss'
 // container styles
 import '../src/containers/home/Right/style.scss'
+import '../src/containers/home/Loading/FilterMenuLoading/style.scss'
 import '../src/containers/solitaire/Home/style.scss'
 import '../src/containers/solitaire/Landing/style.scss'
 import '../src/containers/solitaire/Style/style.scss'
+import '../src/containers/solitaire/Diamond/style.scss'
+import '../src/containers/solitaire/Diamond/DiamondsTable/style.scss'
+import '../src/containers/solitaire/Loading/style.scss'
 // component styles
 import '../src/components/Header/style.scss'
 import '../src/components/FilterBar/style.scss'
@@ -36,6 +40,12 @@ import '../src/components/StyleFilterBar/modules/Options/style.scss'
 import '../src/components/StyleFilterBar/modules/Select/style.scss'
 import '../src/components/StyleCard/style.scss'
 import '../src/components/Dialog/style.scss'
+import '../src/components/ViewTotal/style.scss'
+import '../src/components/StyleDialog/style.scss'
+import '../src/components/DiamondDialog/style.scss'
+import '../src/components/OrderTab/style.scss'
+import '../src/components/DiamondStrip/style.scss'
+import '../src/components/NoResults/style.scss'
 
 function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />

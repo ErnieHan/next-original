@@ -3,12 +3,15 @@ import {
   updateExample,
   updateRefinements,
   updateRecommends,
-  updateStyleList
+  updateStyleList,
+  updateDiamondList
 } from '../store/actions/update'
 import { setLoading, setActivePage, setStyleParams } from '../store/actions/set'
 import { actionTypes } from '../store/actions/actionTypes'
 import { HOST_URL } from '../constants'
 import { stringify } from 'qs'
+// functions
+import caratCounting from '../functions/caratCounting'
 
 function* getExampleSaga() {
   try {
@@ -50,6 +53,7 @@ function* getRefinementsSaga() {
 function* getRecommendsSaga(context) {
   const { params } = context
   try {
+    yield put(setLoading(true))
     const response = yield fetch(
       `${HOST_URL}/shopping/v1/personalization/solitaire/recommendations?type=${params}`,
       { method: 'GET' }
@@ -64,13 +68,15 @@ function* getRecommendsSaga(context) {
     console.error(error)
   } finally {
     yield put(setActivePage('landing'))
+    yield put(setLoading(false))
   }
 }
 
 function* getStyleListSaga(context) {
   try {
-    const { obj, activeMode } = context
+    const { obj, activeMode, activeDiamond } = context
     yield put(setStyleParams(obj))
+    yield put(setLoading(true))
     const array = Object.keys(obj)
     let params = {}
     let type
@@ -97,7 +103,19 @@ function* getStyleListSaga(context) {
       type,
       ...params
     }
-    console.log('params', params, obj)
+
+    if (activeDiamond) {
+      const ctWt = caratCounting(activeDiamond.ctWt)
+      const diamondBrand = activeDiamond.diamondBrand
+      params = {
+        ...params,
+        ctWt,
+        diamondBrand
+      }
+      yield put(setStyleParams({ ctWt }))
+    }
+
+    // console.log('params', params, obj)
     // 取得款式資料
     const response = yield fetch(
       `${HOST_URL}/shopping/v1/personalization/solitaire/settings/search?${stringify(params)}`,
@@ -111,6 +129,46 @@ function* getStyleListSaga(context) {
     console.error(error)
   } finally {
     yield put(setActivePage('style'))
+    yield put(setLoading(false))
+  }
+}
+
+function* getDiamondListSaga(context) {
+  try {
+    const { activeMode, activeStyle } = context
+    let type
+    let params
+    // 判斷目前的模式 新增type欄位
+    if (activeMode === 'ring') {
+      type = 'ringSetting'
+    } else if (activeMode === 'necklace') {
+      type = 'necklaceSetting'
+    } else if (activeMode === 'earring') {
+      type = 'earringSetting'
+    }
+    if (activeStyle) {
+      params = {
+        templateId: activeStyle.templateId,
+        settingStyleCatgNbr: activeStyle.styleCatgNbr,
+        goldType: activeStyle.catalogItemCode
+      }
+    } else {
+      params = { type }
+    }
+    yield put(setLoading(true))
+    const response = yield fetch(
+      `${HOST_URL}/shopping/v1/personalization/solitaire/diamonds/search?${stringify(params)}`,
+      { method: 'GET' }
+    )
+    if (response.ok) {
+      const result = yield response.json()
+      yield put(updateDiamondList(result))
+    }
+  } catch (error) {
+    console.error(error)
+  } finally {
+    yield put(setActivePage('diamond'))
+    yield put(setLoading(false))
   }
 }
 
@@ -207,6 +265,7 @@ function* rootSaga() {
     takeLatest(actionTypes.GET_RECOMMENDS, getRecommendsSaga),
     takeLatest(actionTypes.GET_REFINEMENTS, getRefinementsSaga),
     takeLatest(actionTypes.GET_STYLE_LIST, getStyleListSaga),
+    takeLatest(actionTypes.GET_DIAMOND_LIST, getDiamondListSaga),
     takeLatest(actionTypes.POST_EXAMPLE, postExampleSaga),
     takeLatest(actionTypes.POST_REFINEMENTS, postRefinementsSaga2)
   ])

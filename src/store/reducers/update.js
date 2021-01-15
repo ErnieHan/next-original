@@ -5,7 +5,8 @@ const initState = {
   result: null,
   menu: null,
   recommends: null,
-  styleList: null
+  styleList: null,
+  diamondList: null
 }
 
 const update = (state = initState, action) => {
@@ -39,6 +40,12 @@ const update = (state = initState, action) => {
       return {
         ...state,
         styleList: action.data
+      }
+
+    case actionTypes.UPDATE_DIAMOND_LIST:
+      return {
+        ...state,
+        diamondList: action.data
       }
 
     default:

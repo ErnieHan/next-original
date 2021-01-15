@@ -1,18 +1,18 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 // redux
 import { useDispatch } from 'react-redux'
 import { setActiveMode } from '../../../store/actions/set'
 import { getRecommends } from '../../../store/actions/get'
 // compoent
 import ModeButton from '../../../components/ModeButton'
+import Checking from '../../../components/Checking'
 
 function Home() {
   const options = [
     { name: '戒指', mode: 'ring', image: '/images/ring.png', type: 'ringSetting' },
     { name: '吊墜/項鍊', mode: 'necklace', image: '/images/necklace.png', type: 'necklaceSetting' },
-    { name: '耳環', mode: 'earring', image: '', type: 'earringSetting' }
+    { name: '耳環', mode: 'earring', image: '/images/earring.png', type: 'earringSetting' }
   ]
-
   const dispatch = useDispatch()
 
   function handleMode(mode, type) {
@@ -34,6 +34,7 @@ function Home() {
       <div className="step-content">
         <img src="https://cdn.chowsangsang.com/eshop/tw/newweb/home-step.png" />
       </div>
+      <Checking />
     </div>
   )
 }

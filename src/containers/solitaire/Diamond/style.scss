@@ -1,0 +1,30 @@
+.solitaire-diamond {
+  display: flex;
+  padding: 0 35px;
+
+  > .diamond-left-wrap {
+    padding: 0 15px;
+    width: 35%;
+  }
+
+  > .diamond-right-wrap {
+    padding: 0 15px;
+    width: 65%;
+  }
+}
+
+@media (max-width: 991px) {
+  .solitaire-diamond {
+    flex-wrap: wrap;
+
+    > .diamond-left-wrap {
+      padding: 0;
+      width: 100%;
+    }
+
+    > .diamond-right-wrap {
+      padding: 0;
+      width: 100%;
+    }
+  }
+}

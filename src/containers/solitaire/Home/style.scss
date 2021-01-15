@@ -23,3 +23,23 @@
     padding: 0 35px;
   }
 }
+
+@media (max-width: 991px) {
+  .solitaire-home {
+    .head-title {
+      margin-bottom: 40px;
+    }
+
+    .mode-content {
+      margin-bottom: 30px;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .solitaire-home {
+    .mode-content {
+      flex-direction: column;
+    }
+  }
+}

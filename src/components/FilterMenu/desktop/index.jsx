@@ -4,6 +4,7 @@ import { setFilter } from '../../../store/actions/set'
 import { postRefinements } from '../../../store/actions/post'
 
 import Modules from '../modules'
+import FilterMenuLoading from '../../../containers/home/Loading/FilterMenuLoading'
 
 function FilterMenuDesktop() {
   const element = useRef(null)
@@ -54,6 +55,7 @@ function FilterMenuDesktop() {
         </button>
       </div>
       <div className="scale-btn"></div>
+      <FilterMenuLoading />
     </div>
   )
 }

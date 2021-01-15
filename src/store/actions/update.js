@@ -15,3 +15,7 @@ export const updateRecommends = data => {
 export const updateStyleList = data => {
   return { type: actionTypes.UPDATE_STYLE_LIST, data }
 }
+
+export const updateDiamondList = data => {
+  return { type: actionTypes.UPDATE_DIAMOND_LIST, data }
+}
